@@ -3,7 +3,9 @@ using UnityEngine;
 public class Define 
 {
     public const string Horizontal = "Horizontal";
+    public readonly static int isWalkHash = Animator.StringToHash("isWalk");
     public readonly static int isRunHash = Animator.StringToHash("isRun");
-    public readonly static int AttackHash = Animator.StringToHash("Attack");
+    public readonly static int AttackHash = Animator.StringToHash("isAttack");
+    public readonly static int ComboHash = Animator.StringToHash("Combo");
     public readonly static int HurtHash = Animator.StringToHash("Ground");
 }
