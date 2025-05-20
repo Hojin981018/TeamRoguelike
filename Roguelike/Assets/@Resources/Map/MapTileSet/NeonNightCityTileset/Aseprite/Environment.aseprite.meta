@@ -1,0 +1,6753 @@
+fileFormatVersion: 2
+guid: 9846264d94095754b833548722cacae5
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  importerVersion: 2
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+    generateIndividualEvents: 1
+    generateSpriteAtlas: 1
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+    generateIndividualEvents: 1
+    generateSpriteAtlas: 1
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Environment
+    originalName: 
+    pivot: {x: 0.55, y: -0.044077132}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 320
+      height: 363
+    spriteID: 8cecbf963f931904e9077d1671339002
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Hedge_1
+    originalName: 
+    pivot: {x: -3.5, y: -0.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 424
+      y: 90
+      width: 2
+      height: 4
+    spriteID: e26a14dea13f6fc4aa6d4e01b58fbf48
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 410, y: 90}
+  - name: Hedge_2
+    originalName: 
+    pivot: {x: 0.4375, y: -0.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 353
+      y: 424
+      width: 16
+      height: 5
+    spriteID: d8c0fe93f895ce34e8d5d807f6576062
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 353, y: 424}
+  - name: Hedge_3
+    originalName: 
+    pivot: {x: 0.4375, y: -0.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 353
+      y: 437
+      width: 16
+      height: 5
+    spriteID: 1685b41fbb8f284468727417a336e283
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 353, y: 437}
+  - name: Hedge_4
+    originalName: 
+    pivot: {x: 0.4375, y: -0.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 353
+      y: 450
+      width: 16
+      height: 5
+    spriteID: f2dc78dbf195e344ba1d620cbbe358e7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 353, y: 450}
+  - name: Hedge_5
+    originalName: 
+    pivot: {x: 0.4375, y: -0.33333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 410
+      y: 175
+      width: 16
+      height: 3
+    spriteID: adb06583342d7b04787e012fa669faa7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 410, y: 175}
+  - name: Hedge_6
+    originalName: 
+    pivot: {x: 0.6363636, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 391
+      y: 87
+      width: 11
+      height: 2
+    spriteID: b651bb584c80c9f458969eac070280fc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 391, y: 87}
+  - name: Hedge_7
+    originalName: 
+    pivot: {x: -1.25, y: -1.8333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 422
+      y: 299
+      width: 4
+      height: 6
+    spriteID: d8774ce2226cefe498b4f1cd36743382
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 410, y: 289}
+  - name: Hedge_8
+    originalName: 
+    pivot: {x: 0.4375, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 375
+      width: 16
+      height: 16
+    spriteID: f8d4e1bf3508e9f41bd90bbfb164b631
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 375}
+  - name: Hedge_9
+    originalName: 
+    pivot: {x: 0.4375, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 28
+      y: 375
+      width: 16
+      height: 16
+    spriteID: c07def944a5722044a8784b1804b8cd1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 28, y: 375}
+  - name: Hedge_10
+    originalName: 
+    pivot: {x: 0.4375, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 52
+      y: 375
+      width: 16
+      height: 16
+    spriteID: 2eeff8721bfbaf2448b14b9035238327
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 52, y: 375}
+  - name: Hedge_11
+    originalName: 
+    pivot: {x: 0.4375, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 375
+      width: 16
+      height: 16
+    spriteID: bd50a70e2633da34b9736e8c0a99dd21
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 375}
+  - name: Hedge_12
+    originalName: 
+    pivot: {x: 0.875, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 316
+      y: 375
+      width: 8
+      height: 16
+    spriteID: c4d18203710f29c4995e9ea04931ef05
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 316, y: 375}
+  - name: Hedge_13
+    originalName: 
+    pivot: {x: -2, y: -0.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 421
+      y: 475
+      width: 3
+      height: 5
+    spriteID: e6e3296061aff084f86eb23c1ab9d299
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 408, y: 475}
+  - name: Hedge_14
+    originalName: 
+    pivot: {x: 0.6363636, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 391
+      y: 4
+      width: 11
+      height: 6
+    spriteID: 137587e84ee548743b645c3a58583c89
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 391, y: 4}
+  - name: Hedge_15
+    originalName: 
+    pivot: {x: 0.4666667, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 353
+      y: 44
+      width: 15
+      height: 12
+    spriteID: c2d3a10601252424c802656a497798df
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 353, y: 44}
+  - name: Hedge_16
+    originalName: 
+    pivot: {x: 0.6, y: -0.11111111}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 353
+      y: 334
+      width: 10
+      height: 9
+    spriteID: 8cffad99681873841a6a6d083f29b874
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 352, y: 334}
+  - name: Hedge_17
+    originalName: 
+    pivot: {x: -1.25, y: -0.54545456}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 421
+      y: 198
+      width: 4
+      height: 11
+    spriteID: 7dc8a30385a6cc84d8addb859ac97065
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 409, y: 193}
+  - name: Hedge_18
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 311
+      y: 447
+      width: 13
+      height: 16
+    spriteID: 7dff53cb25009c14691772a7f2b8e9a9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 311, y: 447}
+  - name: Hedge_19
+    originalName: 
+    pivot: {x: 0.3846154, y: -1.8333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 353
+      y: 494
+      width: 13
+      height: 6
+    spriteID: 4ff35bf884118464f81e2150e86ed95c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 351, y: 484}
+  - name: Hedge_20
+    originalName: 
+    pivot: {x: 0.5, y: -3.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 421
+      y: 427
+      width: 4
+      height: 4
+    spriteID: fe9ebd4071f3f8f429e8583611c7e80a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 416, y: 415}
+  - name: Hedge_21
+    originalName: 
+    pivot: {x: -0.125, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 391
+      y: 188
+      width: 8
+      height: 2
+    spriteID: 2a42c582c540800468f1ad7108eebd54
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 383, y: 188}
+  - name: Hedge_22
+    originalName: 
+    pivot: {x: 1, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 391
+      y: 208
+      width: 7
+      height: 2
+    spriteID: 87165ff6550e14c4cbb426c7fefa384e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 391, y: 208}
+  - name: Hedge_23
+    originalName: 
+    pivot: {x: 0, y: -0.8888889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 353
+      y: 407
+      width: 9
+      height: 9
+    spriteID: 69a1208174b28e7479dd6ed53c77e93c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 346, y: 400}
+  - name: Hedge_24
+    originalName: 
+    pivot: {x: 1.75, y: -0.8888889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 410
+      y: 299
+      width: 4
+      height: 9
+    spriteID: 2cabda9fe4ca00a47aca069326e7d410
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 410, y: 292}
+  - name: Hedge_25
+    originalName: 
+    pivot: {x: -1.25, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 319
+      y: 495
+      width: 4
+      height: 13
+    spriteID: 8532e2ed8d9970d439ded6ea33eb2abf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 307, y: 495}
+  - name: Hedge_26
+    originalName: 
+    pivot: {x: 0.875, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 353
+      y: 260
+      width: 8
+      height: 12
+    spriteID: 6f17eadbbe796a747a5920de49c34090
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 353, y: 260}
+  - name: Hedge_27
+    originalName: 
+    pivot: {x: -2, y: -0.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 421
+      y: 329
+      width: 3
+      height: 10
+    spriteID: e23f841d60b11e840a68962d361e8fe6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 408, y: 328}
+  - name: Hedge_28
+    originalName: 
+    pivot: {x: 0.54545456, y: -0.13333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 332
+      y: 316
+      width: 11
+      height: 15
+    spriteID: 3887d9af7dae1e14f97f40ef8aac1825
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 331, y: 315}
+  - name: Hedge_29
+    originalName: 
+    pivot: {x: 0.42857146, y: -0.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 410
+      y: 108
+      width: 14
+      height: 4
+    spriteID: 4a8a4c689e84b5448806d49e50b64787
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 409, y: 108}
+  - name: Hedge_30
+    originalName: 
+    pivot: {x: 0.4, y: -0.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 410
+      y: 147
+      width: 10
+      height: 5
+    spriteID: a8ac1608993dea64ba16e265439e5155
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 407, y: 147}
+  - name: Hedge_31
+    originalName: 
+    pivot: {x: 0.25, y: -0.33333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 391
+      y: 248
+      width: 4
+      height: 3
+    spriteID: 7bb84c37626419d41a8df56d7eed1785
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 385, y: 248}
+  - name: Hedge_32
+    originalName: 
+    pivot: {x: -0.125, y: -0.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 410
+      y: 348
+      width: 8
+      height: 4
+    spriteID: e1f2159b9cdbb0e46a12251bfdcbfc0d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 402, y: 348}
+  - name: Hedge_33
+    originalName: 
+    pivot: {x: 0.5833334, y: -0.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 410
+      y: 186
+      width: 12
+      height: 4
+    spriteID: 69fb32449010bd54eb0100e621b25bb3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 410, y: 186}
+  - name: Hedge_34
+    originalName: 
+    pivot: {x: 0.25, y: -0.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 421
+      y: 439
+      width: 4
+      height: 4
+    spriteID: b2e03e64051e49b4295499da01b8a631
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 415, y: 439}
+  - name: Hedge_35
+    originalName: 
+    pivot: {x: 0.25, y: -0.33333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 391
+      y: 259
+      width: 4
+      height: 3
+    spriteID: 5e450d8ebf80ebd46abe253956d6e85b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 385, y: 259}
+  - name: Hedge_36
+    originalName: 
+    pivot: {x: 0.44444445, y: -0.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 353
+      y: 351
+      width: 9
+      height: 10
+    spriteID: 610f9f26c6b178c45992dcb4685231c1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 350, y: 351}
+  - name: Hedge_37
+    originalName: 
+    pivot: {x: 0.42857146, y: -0.14285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 410
+      y: 160
+      width: 7
+      height: 7
+    spriteID: 736f82cbdc32b7140a8665c3ab2ab651
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 406, y: 160}
+  - name: Hedge_38
+    originalName: 
+    pivot: {x: 0.44444445, y: -0.09090909}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 249
+      y: 495
+      width: 9
+      height: 11
+    spriteID: 199f7dd8023335745ace4194695d6710
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 246, y: 495}
+  - name: Hedge_39
+    originalName: 
+    pivot: {x: 0.1, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 410
+      y: 45
+      width: 10
+      height: 6
+    spriteID: 2a802072452ad3d4f8c384de5793dcb4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 404, y: 45}
+  - name: Hedge_40
+    originalName: 
+    pivot: {x: 1.4, y: -0.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 421
+      y: 390
+      width: 5
+      height: 5
+    spriteID: 2cbebe163a1162449ad353dd94362a1b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 421, y: 390}
+  - name: Hedge_41
+    originalName: 
+    pivot: {x: 0.18181819, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 391
+      y: 97
+      width: 11
+      height: 2
+    spriteID: 473d4c23f4ba8fc42860990c3a87fee1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 386, y: 97}
+  - name: Hedge_42
+    originalName: 
+    pivot: {x: 1, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 391
+      y: 218
+      width: 7
+      height: 2
+    spriteID: ee7ec840e832c024cb38a7e70c0d9307
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 391, y: 218}
+  - name: Hedge_43
+    originalName: 
+    pivot: {x: 0, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 391
+      y: 157
+      width: 9
+      height: 2
+    spriteID: f1980ca1ca651f7469acf3a6994550f1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 384, y: 157}
+  - name: Hedge_44
+    originalName: 
+    pivot: {x: 0.7777778, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 391
+      y: 167
+      width: 9
+      height: 2
+    spriteID: 4553c6c1f444a9948b874297d907d685
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 391, y: 167}
+  - name: Hedge_45
+    originalName: 
+    pivot: {x: 0.36363637, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 391
+      y: 107
+      width: 11
+      height: 2
+    spriteID: da1a3b9f71c2f2d4186ff65c6257c0dc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 388, y: 107}
+  - name: Hedge_46
+    originalName: 
+    pivot: {x: 0.3846154, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 332
+      y: 506
+      width: 13
+      height: 2
+    spriteID: b2ec089fd1b08304fa9566f1b562464b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 330, y: 506}
+  - name: Hedge_47
+    originalName: 
+    pivot: {x: 0.36363637, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 391
+      y: 117
+      width: 11
+      height: 2
+    spriteID: adf43a141af072445b9113457e201eb2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 388, y: 117}
+  - name: Hedge_48
+    originalName: 
+    pivot: {x: 0, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 410
+      y: 477
+      width: 3
+      height: 1
+    spriteID: 166141e22ff368744bf4f82c1c08d63e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 403, y: 477}
+  - name: Hedge_49
+    originalName: 
+    pivot: {x: 0.1, y: -7.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 391
+      y: 137
+      width: 10
+      height: 2
+    spriteID: 4cd91e1e61ccfbd449e1608ee29c1629
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 385, y: 123}
+  - name: Hedge_50
+    originalName: 
+    pivot: {x: 2, y: -7.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 367
+      y: 396
+      width: 2
+      height: 2
+    spriteID: fc35f21958f4fe14c9750dcc0d8ca33e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 364, y: 382}
+  - name: Hedge_51
+    originalName: 
+    pivot: {x: 0, y: -16}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 391
+      y: 360
+      width: 5
+      height: 1
+    spriteID: 34fefeffd3e899446b93c46fd1d910ad
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 384, y: 345}
+  - name: Hedge_52
+    originalName: 
+    pivot: {x: 0.875, y: -7.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 391
+      y: 198
+      width: 8
+      height: 2
+    spriteID: 3efc40809865d9f42a587ea57d518a20
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 391, y: 184}
+  - name: Hedge_53
+    originalName: 
+    pivot: {x: 0.14285715, y: -7.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 391
+      y: 228
+      width: 7
+      height: 2
+    spriteID: 80c5436ffda70674f9c2058b6e9283a5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 385, y: 214}
+  - name: Hedge_54
+    originalName: 
+    pivot: {x: 0.5, y: -7.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 391
+      y: 147
+      width: 10
+      height: 2
+    spriteID: 736d146c9514fa54f96a0107c46d36f8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 389, y: 133}
+  - name: Hedge_55
+    originalName: 
+    pivot: {x: -1, y: -16}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 401
+      y: 387
+      width: 1
+      height: 1
+    spriteID: 5cadcf0ad96395e4eb10e0b6c3535dd8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 393, y: 372}
+  - name: Hedge_56
+    originalName: 
+    pivot: {x: 0.18181819, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 391
+      y: 127
+      width: 11
+      height: 2
+    spriteID: 52e22e839a408e04a9977231f0b402f1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 386, y: 127}
+  - name: Hedge_57
+    originalName: 
+    pivot: {x: 0.4375, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 410
+      y: 360
+      width: 16
+      height: 2
+    spriteID: 05b1df7a42829a5458bfc18b9707b4e7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 410, y: 360}
+  - name: Hedge_58
+    originalName: 
+    pivot: {x: 0.16666667, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 391
+      y: 270
+      width: 6
+      height: 2
+    spriteID: e13c028fbbf373a428fd6146883e432f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 385, y: 270}
+  - name: Hedge_59
+    originalName: 
+    pivot: {x: 0.1, y: -16}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 391
+      y: 313
+      width: 10
+      height: 1
+    spriteID: 079c4d828b5ab4e4f887059746236f1f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 385, y: 298}
+  - name: Hedge_60
+    originalName: 
+    pivot: {x: 0.4666667, y: -7.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 410
+      y: 380
+      width: 15
+      height: 2
+    spriteID: d9fb2352d3de59740bc5f23e6003a07d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 410, y: 366}
+  - name: Hedge_61
+    originalName: 
+    pivot: {x: 0, y: -16}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 401
+      y: 396
+      width: 1
+      height: 1
+    spriteID: 1660a4538aec3e84798c612c8f9cd79a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 394, y: 381}
+  - name: Hedge_62
+    originalName: 
+    pivot: {x: 0, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 410
+      y: 133
+      width: 9
+      height: 6
+    spriteID: e3a376d6eebe23c44b5abae058903dcf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 403, y: 133}
+  - name: Hedge_63
+    originalName: 
+    pivot: {x: 0.4375, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 353
+      y: 280
+      width: 16
+      height: 6
+    spriteID: 94bad3a89653de347bab0a3c4a6f434a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 353, y: 280}
+  - name: Hedge_64
+    originalName: 
+    pivot: {x: 0.18181819, y: -0.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 227
+      y: 495
+      width: 11
+      height: 10
+    spriteID: d1f1d0741c6978d4a93825556222e1ec
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 222, y: 494}
+  - name: Hedge_65
+    originalName: 
+    pivot: {x: 0.4375, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 124
+      y: 447
+      width: 16
+      height: 15
+    spriteID: 3f396d26378e1e045af4b990d755e9c3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 124, y: 447}
+  - name: Hedge_66
+    originalName: 
+    pivot: {x: 2.3333335, y: -1.6666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 410
+      y: 426
+      width: 3
+      height: 3
+    spriteID: d54d94c4cdd5a3e458aa5500dc9a54e1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 410, y: 422}
+  - name: Hedge_67
+    originalName: 
+    pivot: {x: 0.40000004, y: -0.45454547}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 353
+      y: 64
+      width: 15
+      height: 11
+    spriteID: a1ba32e16bd5f4644b208f610ef0e112
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 352, y: 60}
+  - name: Hedge_68
+    originalName: 
+    pivot: {x: 0.4375, y: -0.6}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 353
+      y: 102
+      width: 16
+      height: 10
+    spriteID: cc8fbc3086a50d9458b5d705ea23491d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 353, y: 97}
+  - name: Hedge_69
+    originalName: 
+    pivot: {x: 0.4, y: -1.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 421
+      y: 403
+      width: 5
+      height: 4
+    spriteID: 377b792ad859b7946abf16e6858eb2ad
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 416, y: 398}
+  - name: Hedge_70
+    originalName: 
+    pivot: {x: 0.25, y: -2.3333335}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 391
+      y: 280
+      width: 4
+      height: 3
+    spriteID: 54cc985f7ea0f9e4db882519c2fe9a18
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 385, y: 274}
+  - name: Hedge_71
+    originalName: 
+    pivot: {x: 0.25, y: -1.75}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 421
+      y: 451
+      width: 4
+      height: 4
+    spriteID: 9233b3f3d25b16e438aeab4bf1309199
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 415, y: 445}
+  - name: Hedge_72
+    originalName: 
+    pivot: {x: 0.25, y: -2.3333335}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 391
+      y: 291
+      width: 4
+      height: 3
+    spriteID: 0232991907a967c459f4bc111b449aaa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 385, y: 285}
+  - name: Hedge_73
+    originalName: 
+    pivot: {x: 0.5, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 391
+      y: 322
+      width: 4
+      height: 2
+    spriteID: 69bb4fae23e51d64aad4b1b0c6e84980
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 386, y: 322}
+  - name: Hedge_74
+    originalName: 
+    pivot: {x: 0, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 237
+      width: 1
+      height: 1
+    spriteID: 5b0ca91c6494b9f4eb57badf4addc1cd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 361, y: 237}
+  - name: Hedge_75
+    originalName: 
+    pivot: {x: 0.33333334, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 410
+      y: 486
+      width: 3
+      height: 1
+    spriteID: 5583942c8ac8d8347b1a693e65026a74
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 404, y: 486}
+  - name: Hedge_76
+    originalName: 
+    pivot: {x: 0.4, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 391
+      y: 369
+      width: 5
+      height: 1
+    spriteID: 6516b3fc5b3d8464f94377bd710e9b49
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 386, y: 369}
+  - name: Hedge_77
+    originalName: 
+    pivot: {x: 0.6666667, y: -0.54545456}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 410
+      y: 329
+      width: 3
+      height: 11
+    spriteID: 90146bd9210eb00499fb7213b5b7c1bb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 405, y: 324}
+  - name: Hedge_78
+    originalName: 
+    pivot: {x: 0.5, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 367
+      y: 294
+      width: 2
+      height: 16
+    spriteID: 75656a10ac1826642836e46cb84af46f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 361, y: 294}
+  - name: Hedge_79
+    originalName: 
+    pivot: {x: 0.33333334, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 410
+      y: 198
+      width: 3
+      height: 16
+    spriteID: 3f12d6bd140dcdf4186b3d92dde871f0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 404, y: 198}
+  - name: Hedge_80
+    originalName: 
+    pivot: {x: 0.4, y: -3.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 421
+      y: 415
+      width: 5
+      height: 4
+    spriteID: 80667c0e10161ec47a70b40525459ce0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 416, y: 403}
+  - name: Hedge_81
+    originalName: 
+    pivot: {x: 0.33333334, y: -0.7}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 410
+      y: 390
+      width: 3
+      height: 10
+    spriteID: 344ea58e613feb448a5d0a099be3a7fe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 404, y: 384}
+  - name: Hedge_82
+    originalName: 
+    pivot: {x: 0, y: -2.4}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 425
+      y: 316
+      width: 1
+      height: 5
+    spriteID: 6bcadaa5614bb2e44934557c8801f710
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 418, y: 305}
+  - name: Hedge_83
+    originalName: 
+    pivot: {x: 0, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 205
+      y: 495
+      width: 9
+      height: 13
+    spriteID: d5e85a3c67002064c8de1c5750243f98
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 198, y: 495}
+  - name: Hedge_84
+    originalName: 
+    pivot: {x: 0.4375, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 148
+      y: 447
+      width: 16
+      height: 15
+    spriteID: cdf3fd0f4d34b1d4dbb8649051873272
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 148, y: 447}
+  - name: Hedge_85
+    originalName: 
+    pivot: {x: 0.4375, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 353
+      y: 4
+      width: 16
+      height: 12
+    spriteID: a1b40f254b548a14bb6e8ca460d99a06
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 353, y: 4}
+  - name: Hedge_86
+    originalName: 
+    pivot: {x: 7, y: -2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 425
+      y: 28
+      width: 1
+      height: 2
+    spriteID: 2eb47830fcc55e642a075a51066a0159
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 425, y: 25}
+  - name: Hedge_87
+    originalName: 
+    pivot: {x: -0.125, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 410
+      y: 222
+      width: 8
+      height: 6
+    spriteID: 391b06d0913cf9c489e114faec03d104
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 402, y: 222}
+  - name: Hedge_88
+    originalName: 
+    pivot: {x: 0.4375, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 293
+      y: 471
+      width: 16
+      height: 13
+    spriteID: 34f2167c13d11044ea6c44a419d880ba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 293, y: 471}
+  - name: Hedge_89
+    originalName: 
+    pivot: {x: 0.6363636, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 95
+      y: 495
+      width: 11
+      height: 12
+    spriteID: 9255e6e3553d6d948be6955813964f5a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 95, y: 495}
+  - name: Hedge_90
+    originalName: 
+    pivot: {x: -0.125, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 410
+      y: 236
+      width: 8
+      height: 6
+    spriteID: db525a817b61ffa40a27583638ca336d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 402, y: 236}
+  - name: Hedge_91
+    originalName: 
+    pivot: {x: 0.4375, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 271
+      y: 495
+      width: 16
+      height: 13
+    spriteID: 783044605c1762044979e591313a06a9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 271, y: 495}
+  - name: Hedge_92
+    originalName: 
+    pivot: {x: 0.6363636, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 117
+      y: 495
+      width: 11
+      height: 12
+    spriteID: 92e03bdf7d420b240addb894743e8b98
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 117, y: 495}
+  - name: Hedge_93
+    originalName: 
+    pivot: {x: 0.42857146, y: -0.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 410
+      y: 316
+      width: 7
+      height: 5
+    spriteID: f8a1289eb0f413e4aac7f8b4dd1a92e5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 406, y: 316}
+  - name: Hedge_94
+    originalName: 
+    pivot: {x: 0.25, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 410
+      y: 250
+      width: 8
+      height: 6
+    spriteID: 6d7d74a6ab878af4cb48f3c126db5f6d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 405, y: 250}
+  - name: Hedge_95
+    originalName: 
+    pivot: {x: 0.18181819, y: -0.125}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 353
+      y: 369
+      width: 11
+      height: 8
+    spriteID: 1cbe8db40c818c249b47c5f0ad6ee3d7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 348, y: 369}
+  - name: Hedge_96
+    originalName: 
+    pivot: {x: 0.4375, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 100
+      y: 375
+      width: 16
+      height: 16
+    spriteID: 1deb0050f471885489b953e848d0c3c5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 100, y: 375}
+  - name: Hedge_97
+    originalName: 
+    pivot: {x: 0.4375, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 124
+      y: 375
+      width: 16
+      height: 16
+    spriteID: 2ca5c845a1f3037449d236d1e59e7d60
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 124, y: 375}
+  - name: Hedge_98
+    originalName: 
+    pivot: {x: 0.4375, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 148
+      y: 375
+      width: 16
+      height: 16
+    spriteID: b5c88fef745acae42aac77a217ff9ffe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 148, y: 375}
+  - name: Hedge_99
+    originalName: 
+    pivot: {x: 1.1666667, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 353
+      y: 294
+      width: 6
+      height: 16
+    spriteID: ff44f00f44598314faa01e5b3d0ff6fc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 353, y: 294}
+  - name: Hedge_100
+    originalName: 
+    pivot: {x: 0.40000004, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 172
+      y: 447
+      width: 15
+      height: 16
+    spriteID: 9c9c22d0360152848a4db22f7830d7bc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 171, y: 447}
+  - name: Hedge_101
+    originalName: 
+    pivot: {x: 0.4375, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 172
+      y: 375
+      width: 16
+      height: 16
+    spriteID: 9c60d786d867a4b489c6602e5806a96c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 172, y: 375}
+  - name: Hedge_102
+    originalName: 
+    pivot: {x: 0.5, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 51
+      y: 471
+      width: 14
+      height: 16
+    spriteID: 10eeafced375af74ea33a244d8a5a751
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 51, y: 471}
+  - name: Hedge_103
+    originalName: 
+    pivot: {x: 0.25, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 332
+      y: 148
+      width: 12
+      height: 16
+    spriteID: 8bce4eeb29dc7474d9444a972b78192c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 328, y: 148}
+  - name: Hedge_104
+    originalName: 
+    pivot: {x: 0.4375, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 196
+      y: 375
+      width: 16
+      height: 16
+    spriteID: 6fb26629219303744ab2e38e123363b1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 196, y: 375}
+  - name: Hedge_105
+    originalName: 
+    pivot: {x: 0.5, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 73
+      y: 471
+      width: 14
+      height: 16
+    spriteID: f53d32b42f17a694593f2fa99f2c0ca3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 73, y: 471}
+  - name: Hedge_106
+    originalName: 
+    pivot: {x: -0.2857143, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 353
+      y: 237
+      width: 7
+      height: 15
+    spriteID: 7beaccd7f98012a4e8be325124f171f9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 344, y: 237}
+  - name: Hedge_107
+    originalName: 
+    pivot: {x: 0.4375, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 220
+      y: 375
+      width: 16
+      height: 16
+    spriteID: 013ebfe08a7cbb449a9b2ca3a67b60fe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 220, y: 375}
+  - name: Hedge_108
+    originalName: 
+    pivot: {x: 7, y: -4}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 410
+      y: 495
+      width: 1
+      height: 2
+    spriteID: 3d1c17160c39d4143b6110f89160dc84
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 410, y: 488}
+  - name: Hedge_109
+    originalName: 
+    pivot: {x: -0.5, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 353
+      y: 385
+      width: 6
+      height: 14
+    spriteID: e7d788ea649dfef48a91c250fed922ce
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 343, y: 385}
+  - name: Hedge_110
+    originalName: 
+    pivot: {x: 0.4375, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 244
+      y: 375
+      width: 16
+      height: 16
+    spriteID: a81cc1d560d13934ba3bba5631c6851d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 244, y: 375}
+  - name: Hedge_111
+    originalName: 
+    pivot: {x: 2.3333335, y: -0.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 410
+      y: 408
+      width: 3
+      height: 10
+    spriteID: ae0edfc4eedec6240b3276ee14e2f39a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 410, y: 408}
+  - name: Hedge_112
+    originalName: 
+    pivot: {x: 0.25, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 332
+      y: 172
+      width: 12
+      height: 16
+    spriteID: dc378a88eebd7f349afb28cd4a89d409
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 328, y: 172}
+  - name: Hedge_113
+    originalName: 
+    pivot: {x: 0.4375, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 375
+      width: 16
+      height: 16
+    spriteID: 5baf0f52190455d4c8bc6ecd534693d2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 268, y: 375}
+  - name: Hedge_114
+    originalName: 
+    pivot: {x: 0.4375, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 292
+      y: 375
+      width: 16
+      height: 16
+    spriteID: d94d4baa29701ab41b59e983cbdf2cd3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 292, y: 375}
+  - name: Hedge_115
+    originalName: 
+    pivot: {x: 0.4375, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 399
+      width: 16
+      height: 16
+    spriteID: 98521aefa11d9e14db987bf8475b4769
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 399}
+  - name: Hedge_116
+    originalName: 
+    pivot: {x: 0.5, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 95
+      y: 471
+      width: 14
+      height: 16
+    spriteID: e44da58bcec1da24d85eab3db7f32633
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 95, y: 471}
+  - name: Hedge_117
+    originalName: 
+    pivot: {x: 0.4375, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 28
+      y: 399
+      width: 16
+      height: 16
+    spriteID: 3292b451f736c7e49a6aa68c634de4ba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 28, y: 399}
+  - name: Hedge_118
+    originalName: 
+    pivot: {x: 0.4375, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 52
+      y: 399
+      width: 16
+      height: 16
+    spriteID: 59321ab4e054a0443926ac72ec86a32b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 52, y: 399}
+  - name: Hedge_119
+    originalName: 
+    pivot: {x: 0.4375, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 399
+      width: 16
+      height: 16
+    spriteID: 39d45f441d6adb8408d3033297d1f8ef
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 399}
+  - name: Hedge_120
+    originalName: 
+    pivot: {x: 0.4375, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 100
+      y: 399
+      width: 16
+      height: 16
+    spriteID: 3813b77e6a32632459fa0f363b604631
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 100, y: 399}
+  - name: Hedge_121
+    originalName: 
+    pivot: {x: 0.4375, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 124
+      y: 399
+      width: 16
+      height: 16
+    spriteID: d0ba459caab8ee1418aa59243994f9eb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 124, y: 399}
+  - name: Hedge_122
+    originalName: 
+    pivot: {x: 0.5, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 117
+      y: 471
+      width: 14
+      height: 16
+    spriteID: f34ef507c1cb6754384697c798ce715a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 117, y: 471}
+  - name: Hedge_123
+    originalName: 
+    pivot: {x: 0.1, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 332
+      y: 339
+      width: 10
+      height: 16
+    spriteID: 1600b9b0517f3f74ba9f0ca4a42e60e0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 326, y: 339}
+  - name: Hedge_124
+    originalName: 
+    pivot: {x: 0.4375, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 148
+      y: 399
+      width: 16
+      height: 16
+    spriteID: 4a84a528ab7f5c143b5bbd5ed68b0e39
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 148, y: 399}
+  - name: Hedge_125
+    originalName: 
+    pivot: {x: 0.7777778, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 332
+      y: 410
+      width: 9
+      height: 16
+    spriteID: 12718ebd6204b584384f38b651287be5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 332, y: 410}
+  - name: Hedge_126
+    originalName: 
+    pivot: {x: 0, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 332
+      y: 434
+      width: 9
+      height: 16
+    spriteID: 60e52747493eda2469ef8cd87dd61edb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 325, y: 434}
+  - name: Hedge_127
+    originalName: 
+    pivot: {x: 0.4375, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 172
+      y: 399
+      width: 16
+      height: 16
+    spriteID: 203ff2364549b3047932f7d2e48bc7cd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 172, y: 399}
+  - name: Hedge_128
+    originalName: 
+    pivot: {x: 0.7, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 332
+      y: 363
+      width: 10
+      height: 16
+    spriteID: d1169a6b4eda54c49bed67393a7a1ac1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 332, y: 363}
+  - name: Hedge_129
+    originalName: 
+    pivot: {x: 0.25, y: -0.30769232}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 51
+      y: 495
+      width: 12
+      height: 13
+    spriteID: 72e4eb90a52d9bd43bb1279ef1ce999b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 47, y: 492}
+  - name: Hedge_130
+    originalName: 
+    pivot: {x: 0.4375, y: -0.13333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 195
+      y: 447
+      width: 16
+      height: 15
+    spriteID: 87caaef45ce6f654e93096f40f795774
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 195, y: 446}
+  - name: Hedge_131
+    originalName: 
+    pivot: {x: 0.4375, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 196
+      y: 399
+      width: 16
+      height: 16
+    spriteID: 3e6f771d239ed0041823d8a5ecca21d7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 196, y: 399}
+  - name: Hedge_132
+    originalName: 
+    pivot: {x: 0.4375, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 220
+      y: 399
+      width: 16
+      height: 16
+    spriteID: d19466552479352429ff075dd0887049
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 220, y: 399}
+  - name: Hedge_133
+    originalName: 
+    pivot: {x: 0.4666667, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 219
+      y: 447
+      width: 15
+      height: 16
+    spriteID: f23456cf4782e6f488a0a6b001e155e0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 219, y: 447}
+  - name: Hedge_134
+    originalName: 
+    pivot: {x: 0.40000004, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 242
+      y: 447
+      width: 15
+      height: 16
+    spriteID: db21a478f15e5ff45b485bc0041e9f63
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 241, y: 447}
+  - name: Hedge_135
+    originalName: 
+    pivot: {x: 0.4375, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 244
+      y: 399
+      width: 16
+      height: 16
+    spriteID: 072d4853a8007ea479dbcd42d1da7ddc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 244, y: 399}
+  - name: Hedge_136
+    originalName: 
+    pivot: {x: 0.5, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 139
+      y: 471
+      width: 14
+      height: 16
+    spriteID: c28acbd765574994faf2c94dfdbcbdcc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 139, y: 471}
+  - name: Hedge_137
+    originalName: 
+    pivot: {x: 0.18181819, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 332
+      y: 292
+      width: 11
+      height: 16
+    spriteID: 1247f64dfffc27e449d2e6db18935c2e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 327, y: 292}
+  - name: Hedge_138
+    originalName: 
+    pivot: {x: 0.4375, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 399
+      width: 16
+      height: 16
+    spriteID: d1a513442316f314094ddeb8d2b60d08
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 268, y: 399}
+  - name: Hedge_139
+    originalName: 
+    pivot: {x: 0.5, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 161
+      y: 471
+      width: 14
+      height: 16
+    spriteID: 63f1d5033cd061f4fbb95cea1e1b8f9a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 161, y: 471}
+  - name: Hedge_140
+    originalName: 
+    pivot: {x: 0.40000004, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 265
+      y: 447
+      width: 15
+      height: 16
+    spriteID: c0e42af9337189544b2e4dd3ddb3bce6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 264, y: 447}
+  - name: Hedge_141
+    originalName: 
+    pivot: {x: 0.4375, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 292
+      y: 399
+      width: 16
+      height: 16
+    spriteID: fa7b6d001ba1e7f48aac5d1b6485ccb6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 292, y: 399}
+  - name: Hedge_142
+    originalName: 
+    pivot: {x: 0.5, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 183
+      y: 471
+      width: 14
+      height: 16
+    spriteID: 3ea4376220fb349479d4c59a7ee2e280
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 183, y: 471}
+  - name: Hedge_143
+    originalName: 
+    pivot: {x: 0.35714287, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 205
+      y: 471
+      width: 14
+      height: 16
+    spriteID: a69c384a6dfd0d847885d34c9831f7d4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 203, y: 471}
+  - name: Hedge_144
+    originalName: 
+    pivot: {x: 0.4375, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 423
+      width: 16
+      height: 16
+    spriteID: 4eda63af80cd3464ca06bcf626071a4e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 423}
+  - name: Hedge_145
+    originalName: 
+    pivot: {x: 0.4666667, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 447
+      width: 15
+      height: 16
+    spriteID: 5af83c580f38cf14f817a2fdffc16129
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 288, y: 447}
+  - name: Hedge_146
+    originalName: 
+    pivot: {x: 0.30769232, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 332
+      y: 4
+      width: 13
+      height: 16
+    spriteID: 7fcaedef6f4a02242807d14490cf3028
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 329, y: 4}
+  - name: Hedge_147
+    originalName: 
+    pivot: {x: 0.4375, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 28
+      y: 423
+      width: 16
+      height: 16
+    spriteID: 733e7022870f73a4fb13f246a729083f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 28, y: 423}
+  - name: Hedge_148
+    originalName: 
+    pivot: {x: 0.7, y: -4.666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 391
+      y: 18
+      width: 10
+      height: 3
+    spriteID: 8c505d388b3c9fb4f9757356441eef65
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 391, y: 5}
+  - name: Hedge_149
+    originalName: 
+    pivot: {x: -8, y: -16}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 246
+      width: 1
+      height: 1
+    spriteID: 7e020bf7f0dee684e979fab7acccba5d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 353, y: 231}
+  - name: Hedge_150
+    originalName: 
+    pivot: {x: 0.4375, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 52
+      y: 423
+      width: 16
+      height: 16
+    spriteID: 6f539fc51f0d6e344a88d1dff3dfc091
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 52, y: 423}
+  - name: Hedge_151
+    originalName: 
+    pivot: {x: 4, y: -16}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 391
+      y: 414
+      width: 1
+      height: 1
+    spriteID: 6bcb31c062f5aa2459af07752ee06c70
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 388, y: 399}
+  - name: Hedge_152
+    originalName: 
+    pivot: {x: -0.33333334, y: -16}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 391
+      y: 342
+      width: 6
+      height: 1
+    spriteID: e180933783412ad44a8de3f8a51d8b21
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 382, y: 327}
+  - name: Hedge_153
+    originalName: 
+    pivot: {x: 0.5833334, y: -2.4}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 410
+      y: 59
+      width: 12
+      height: 5
+    spriteID: b139c4e28c2dcc148af5906bbd48d06c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 410, y: 48}
+  - name: Hedge_154
+    originalName: 
+    pivot: {x: 1.1666667, y: -16}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 391
+      y: 351
+      width: 6
+      height: 1
+    spriteID: 2801486fef680624da5e81eaea55b07f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 391, y: 336}
+  - name: Hedge_155
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 332
+      y: 28
+      width: 13
+      height: 16
+    spriteID: 8d94d4925922b384aadd9f63f27eb559
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 332, y: 28}
+  - name: Hedge_156
+    originalName: 
+    pivot: {x: 0.40000004, y: -0.13333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 28
+      y: 471
+      width: 15
+      height: 15
+    spriteID: 3a8a079fd82bb34479b3dd92405398b1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 27, y: 470}
+  - name: Hedge_157
+    originalName: 
+    pivot: {x: 1.75, y: -3.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 421
+      y: 463
+      width: 4
+      height: 4
+    spriteID: 027be85204f1a6f49b5952bf4921e1cf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 421, y: 451}
+  - name: Hedge_158
+    originalName: 
+    pivot: {x: -3.5, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 410
+      y: 505
+      width: 2
+      height: 1
+    spriteID: 7ef5d1e6a3984fb498a29031b9d096ec
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 396, y: 505}
+  - name: Hedge_159
+    originalName: 
+    pivot: {x: 1.75, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 391
+      y: 378
+      width: 4
+      height: 1
+    spriteID: 439c7669f44eeb848ae6def75244f53e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 391, y: 378}
+  - name: Hedge_160
+    originalName: 
+    pivot: {x: -3.5, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 410
+      y: 447
+      width: 2
+      height: 2
+    spriteID: 9e7f5d5b0c2134448897d7d73337ff0f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 396, y: 447}
+  - name: Hedge_161
+    originalName: 
+    pivot: {x: 1.75, y: -0.33333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 391
+      y: 302
+      width: 4
+      height: 3
+    spriteID: df0cc2a0476a43b45a92e00111d4cf65
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 391, y: 302}
+  - name: Hedge_162
+    originalName: 
+    pivot: {x: 0.4166667, y: -0.125}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 353
+      y: 318
+      width: 12
+      height: 8
+    spriteID: 8601583ec7641974995da72da38e52d0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 351, y: 318}
+  - name: Hedge_163
+    originalName: 
+    pivot: {x: 0.30769232, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 332
+      y: 52
+      width: 13
+      height: 16
+    spriteID: 3333583476c4a044e81c69986bb99b2c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 329, y: 52}
+  - name: Hedge_164
+    originalName: 
+    pivot: {x: 0.5, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 227
+      y: 471
+      width: 14
+      height: 16
+    spriteID: fce28cdc3792d944cbdad5790921a24b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 227, y: 471}
+  - name: Hedge_165
+    originalName: 
+    pivot: {x: 0.4166667, y: -0.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 139
+      y: 495
+      width: 12
+      height: 10
+    spriteID: c50285dc031a9a245971bdabf204ab8a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 137, y: 495}
+  - name: Hedge_166
+    originalName: 
+    pivot: {x: 0.30769232, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 332
+      y: 76
+      width: 13
+      height: 16
+    spriteID: f5c02657e626f5149b3d33026ce80dd9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 329, y: 76}
+  - name: Hedge_167
+    originalName: 
+    pivot: {x: 0.5, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 249
+      y: 471
+      width: 14
+      height: 16
+    spriteID: 0cc685547c837c34ba9080af2436ba6a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 249, y: 471}
+  - name: Hedge_168
+    originalName: 
+    pivot: {x: -8, y: -0.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 425
+      y: 160
+      width: 1
+      height: 4
+    spriteID: 578a83aded0097e4f969e7254b9a27ac
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 410, y: 160}
+  - name: Hedge_169
+    originalName: 
+    pivot: {x: 0.4375, y: -0.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 353
+      y: 463
+      width: 16
+      height: 5
+    spriteID: 5d0ed8647bf62ba438fbb42a810fe5e4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 353, y: 463}
+  - name: Hedge_170
+    originalName: 
+    pivot: {x: 0.6363636, y: -0.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 410
+      y: 120
+      width: 11
+      height: 5
+    spriteID: 13f38859a2bd5d647a6abd3de1a71c88
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 410, y: 120}
+  - name: Hedge_171
+    originalName: 
+    pivot: {x: -0.125, y: -0.33333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 391
+      y: 40
+      width: 8
+      height: 3
+    spriteID: 8e83f365d3032cc49ac22d4d9175d8e6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 383, y: 40}
+  - name: Hedge_172
+    originalName: 
+    pivot: {x: 0.4375, y: -0.33333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 410
+      y: 264
+      width: 16
+      height: 3
+    spriteID: 015c1a5feb109ca4d957f2527e7f5f4d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 410, y: 264}
+  - name: Hedge_173
+    originalName: 
+    pivot: {x: 7, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 391
+      y: 423
+      width: 1
+      height: 1
+    spriteID: 004d20c37e08ef34cb5f7186c1800603
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 391, y: 423}
+  - name: Hedge_174
+    originalName: 
+    pivot: {x: -0.2857143, y: -0.11111111}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 410
+      y: 28
+      width: 7
+      height: 9
+    spriteID: 6787111a56f2a1344bf36932d0ec7a88
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 401, y: 28}
+  - name: Hedge_175
+    originalName: 
+    pivot: {x: 0.4375, y: -0.11111111}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 353
+      y: 156
+      width: 16
+      height: 9
+    spriteID: 82bc5d784384b154ba2ebd4db39c421b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 353, y: 156}
+  - name: Hedge_176
+    originalName: 
+    pivot: {x: 0.5833334, y: -0.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 161
+      y: 495
+      width: 12
+      height: 10
+    spriteID: dfbdface0a6e07346ae45b2a1e5faaa1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 161, y: 495}
+  - name: Hedge_177
+    originalName: 
+    pivot: {x: 0.4375, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 423
+      width: 16
+      height: 16
+    spriteID: a64a8715d8e86cc468d8c96d70bdafa3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 423}
+  - name: Hedge_178
+    originalName: 
+    pivot: {x: 0.4375, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 100
+      y: 423
+      width: 16
+      height: 16
+    spriteID: 1fe093951b6302648a4e25fded7c2c11
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 100, y: 423}
+  - name: Hedge_179
+    originalName: 
+    pivot: {x: 0.4375, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 124
+      y: 423
+      width: 16
+      height: 16
+    spriteID: 07fbf2a4044948449915116113f3d9ea
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 124, y: 423}
+  - name: Hedge_180
+    originalName: 
+    pivot: {x: 1.1666667, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 377
+      y: 4
+      width: 6
+      height: 13
+    spriteID: 8775e330788dd274ea044184ee431953
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 377, y: 4}
+  - name: Hedge_181
+    originalName: 
+    pivot: {x: 0.25, y: -0.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 183
+      y: 495
+      width: 12
+      height: 10
+    spriteID: 633e54c9bed619a4f956412d2f297e85
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 179, y: 495}
+  - name: Hedge_182
+    originalName: 
+    pivot: {x: 0.4375, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 353
+      y: 24
+      width: 16
+      height: 12
+    spriteID: 1de5a061f6c4bed4da6148975c13a615
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 353, y: 24}
+  - name: Hedge_183
+    originalName: 
+    pivot: {x: 0.5, y: -0.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 73
+      y: 495
+      width: 14
+      height: 10
+    spriteID: b592397d96dffe948b13bc4ccafa2589
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 73, y: 495}
+  - name: Hedge_184
+    originalName: 
+    pivot: {x: -0.125, y: -0.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 353
+      y: 476
+      width: 8
+      height: 10
+    spriteID: 94e58059da001b548975093c4cb993fc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 345, y: 476}
+  - name: Hedge_185
+    originalName: 
+    pivot: {x: 0.4375, y: -0.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 353
+      y: 120
+      width: 16
+      height: 10
+    spriteID: d020abcde8b093a40b9bf17ee005b0ee
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 353, y: 120}
+  - name: Hedge_186
+    originalName: 
+    pivot: {x: 0.40000004, y: -0.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 353
+      y: 138
+      width: 15
+      height: 10
+    spriteID: 032c262c35e8afd4aba760499957673c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 352, y: 138}
+  - name: Hedge_187
+    originalName: 
+    pivot: {x: 0.4375, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 148
+      y: 423
+      width: 16
+      height: 16
+    spriteID: c639fb70b06dfaf4b90bd04613c4939c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 148, y: 423}
+  - name: Hedge_188
+    originalName: 
+    pivot: {x: 0.4375, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 172
+      y: 423
+      width: 16
+      height: 16
+    spriteID: c7df1a66f19f22d4d96990638593a49b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 172, y: 423}
+  - name: Hedge_189
+    originalName: 
+    pivot: {x: 0.4375, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 196
+      y: 423
+      width: 16
+      height: 16
+    spriteID: 1e83b22544153ef4184c470c8c1904ef
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 196, y: 423}
+  - name: Hedge_190
+    originalName: 
+    pivot: {x: 0.4375, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 410
+      y: 370
+      width: 16
+      height: 2
+    spriteID: a2455fcc124697041a0575b927127038
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 410, y: 370}
+  - name: Hedge_191
+    originalName: 
+    pivot: {x: 0.4375, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 295
+      y: 495
+      width: 16
+      height: 13
+    spriteID: 0fb32bcab2ee402459e4fb6a86622aa3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 295, y: 495}
+  - name: Hedge_192
+    originalName: 
+    pivot: {x: 0.4375, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 220
+      y: 423
+      width: 16
+      height: 16
+    spriteID: b1749fe2f78de094b812c059f340273c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 220, y: 423}
+  - name: Hedge_193
+    originalName: 
+    pivot: {x: 0.4375, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 471
+      width: 16
+      height: 15
+    spriteID: df4ef635f3e10d94fabc8eb4c57c35fc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 471}
+  - name: Hedge_194
+    originalName: 
+    pivot: {x: 3.5, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 424
+      y: 72
+      width: 2
+      height: 6
+    spriteID: db937133e286fda4a945d0a18fbc63bb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 424, y: 72}
+  - name: Hedge_195
+    originalName: 
+    pivot: {x: 0.25, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 332
+      y: 196
+      width: 12
+      height: 16
+    spriteID: 31e97544fed343348a4c073ed51d1758
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 328, y: 196}
+  - name: Hedge_196
+    originalName: 
+    pivot: {x: 0.4375, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 244
+      y: 423
+      width: 16
+      height: 16
+    spriteID: 7c29017e27d9566488e1d41c002181f7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 244, y: 423}
+  - name: Hedge_197
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 332
+      y: 100
+      width: 13
+      height: 16
+    spriteID: f2cc0a4252202da469d0bfb21edcb002
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 332, y: 100}
+  - name: Hedge_198
+    originalName: 
+    pivot: {x: -3.5, y: -16}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 391
+      y: 387
+      width: 2
+      height: 1
+    spriteID: d69bf46dfdfc2b84d83f3f0d5e376d08
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 377, y: 372}
+  - name: Hedge_199
+    originalName: 
+    pivot: {x: 0.4375, y: -4.666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 410
+      y: 275
+      width: 16
+      height: 3
+    spriteID: 7d2e768ad0a9984408de68b5313c27c9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 410, y: 262}
+  - name: Hedge_200
+    originalName: 
+    pivot: {x: 0.4375, y: -3.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 410
+      y: 4
+      width: 16
+      height: 4
+    spriteID: a58381e3eee3d2c4eba482570ec6cec7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 410, y: -8}
+  - name: Hedge_201
+    originalName: 
+    pivot: {x: 0.4375, y: -3.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 410
+      y: 16
+      width: 16
+      height: 4
+    spriteID: 58cfe3cc8f9cec04b8f4ac430576afb4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 410, y: 4}
+  - name: Hedge_202
+    originalName: 
+    pivot: {x: 3.5, y: -7.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 410
+      y: 457
+      width: 2
+      height: 2
+    spriteID: b429474c76a917b45a8ea384dcdd68d5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 410, y: 443}
+  - name: Hedge_203
+    originalName: 
+    pivot: {x: 0.25, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 332
+      y: 220
+      width: 12
+      height: 16
+    spriteID: 637ac44bab135a0468d3521d57607c06
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 328, y: 220}
+  - name: Hedge_204
+    originalName: 
+    pivot: {x: 0.4375, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 423
+      width: 16
+      height: 16
+    spriteID: f56bed71bab71db46814c5b20cf17b26
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 268, y: 423}
+  - name: Hedge_205
+    originalName: 
+    pivot: {x: 0.4375, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 292
+      y: 423
+      width: 16
+      height: 16
+    spriteID: 459125d16b384c54a9ceed4851dfdb60
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 292, y: 423}
+  - name: Hedge_206
+    originalName: 
+    pivot: {x: 0.4375, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 447
+      width: 16
+      height: 16
+    spriteID: cbb21959e7347654f8aad01f47e9af4b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 447}
+  - name: Hedge_207
+    originalName: 
+    pivot: {x: 0.5833334, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 332
+      y: 244
+      width: 12
+      height: 16
+    spriteID: 0e0a2a5dadcb6a6429ba81d6c00787a9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 332, y: 244}
+  - name: Hedge_208
+    originalName: 
+    pivot: {x: -0.2857143, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 391
+      y: 238
+      width: 7
+      height: 2
+    spriteID: 9ead74a84ecddcb48989ec483b0269e0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 382, y: 238}
+  - name: Hedge_209
+    originalName: 
+    pivot: {x: 2.3333335, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 410
+      y: 437
+      width: 3
+      height: 2
+    spriteID: 4b8ed86debac5ad48b18683b5221c95b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 410, y: 437}
+  - name: Hedge_210
+    originalName: 
+    pivot: {x: 0.1, y: -0.13333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 332
+      y: 387
+      width: 10
+      height: 15
+    spriteID: 48dee2f182e5ed3419bb31aab365fed5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 326, y: 386}
+  - name: Hedge_211
+    originalName: 
+    pivot: {x: 0.4375, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 28
+      y: 447
+      width: 16
+      height: 16
+    spriteID: 4c777f0b314c6374e81e436b1351334d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 28, y: 447}
+  - name: Hedge_212
+    originalName: 
+    pivot: {x: 3.5, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 391
+      y: 396
+      width: 2
+      height: 1
+    spriteID: ac6cc76686b850941903cb0f491f8e4d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 391, y: 396}
+  - name: Hedge_213
+    originalName: 
+    pivot: {x: 0.4375, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 52
+      y: 447
+      width: 16
+      height: 16
+    spriteID: 7d90a6b9fabbc5a4ca1e60c673c16624
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 52, y: 447}
+  - name: Hedge_214
+    originalName: 
+    pivot: {x: 0.40000004, y: -0.09090909}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 353
+      y: 83
+      width: 15
+      height: 11
+    spriteID: b839f0493f3a0074ba998c488d793d55
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 352, y: 83}
+  - name: Hedge_215
+    originalName: 
+    pivot: {x: 3.5, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 410
+      y: 467
+      width: 2
+      height: 2
+    spriteID: d1ac6973d8c742e48b12e6d638a800c1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 410, y: 467}
+  - name: Hedge_216
+    originalName: 
+    pivot: {x: 0.4375, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 447
+      width: 16
+      height: 16
+    spriteID: 837bbbd3ef1a8f34b89fa458d72abf4b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 447}
+  - name: Hedge_217
+    originalName: 
+    pivot: {x: 3.5, y: -4.666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 367
+      y: 385
+      width: 2
+      height: 3
+    spriteID: 51343d7d74a0e1b4aaa276aa8749dba3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 367, y: 372}
+  - name: Hedge_218
+    originalName: 
+    pivot: {x: 0.1, y: -0.33333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 391
+      y: 29
+      width: 10
+      height: 3
+    spriteID: 8f40810dc1e8eab4495a91c8beb5652a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 385, y: 29}
+  - name: Hedge_219
+    originalName: 
+    pivot: {x: 0.4375, y: -0.21428573}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 494
+      width: 16
+      height: 14
+    spriteID: 2cdc2ca92c637fd4fafbe5bc1ca02389
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 492}
+  - name: Hedge_220
+    originalName: 
+    pivot: {x: 0.4375, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 100
+      y: 447
+      width: 16
+      height: 16
+    spriteID: c2051e94f80d9fd4c9366fad87466da0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 100, y: 447}
+  - name: Hedge_221
+    originalName: 
+    pivot: {x: -0.5, y: -0.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 391
+      y: 51
+      width: 6
+      height: 4
+    spriteID: 3d8c7d1f9d15c204f83b73e8f3660f92
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 381, y: 51}
+  - name: Hedge_222
+    originalName: 
+    pivot: {x: 1.1666667, y: -0.33333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 391
+      y: 177
+      width: 6
+      height: 3
+    spriteID: 365fe4f616597e1429991fadac4da3cf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 391, y: 177}
+  - name: Hedge_223
+    originalName: 
+    pivot: {x: 0, y: -0.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 410
+      y: 286
+      width: 9
+      height: 5
+    spriteID: 4e4633609518bd64a862d2818902b430
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 403, y: 286}
+  - name: Hedge_224
+    originalName: 
+    pivot: {x: 2.3333335, y: -0.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 421
+      y: 488
+      width: 3
+      height: 5
+    spriteID: 7586d4c7cec6c5a49b1b8e700584b808
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 421, y: 488}
+  - name: Hedge_225
+    originalName: 
+    pivot: {x: -0.6, y: -0.33333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 421
+      y: 501
+      width: 5
+      height: 3
+    spriteID: e3e24634dfe655242b3380e2e4dc93d8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 411, y: 501}
+  - name: Hedge_226
+    originalName: 
+    pivot: {x: 1.5, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 391
+      y: 332
+      width: 4
+      height: 2
+    spriteID: 34c693b32ace5ac488a2d742cc60ec5d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 390, y: 332}
+  - name: Hedge_227
+    originalName: 
+    pivot: {x: -0.5, y: -0.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 391
+      y: 63
+      width: 6
+      height: 4
+    spriteID: 3b5f1d96270509a4da4d8a3f89cdc76a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 381, y: 63}
+  - name: Hedge_228
+    originalName: 
+    pivot: {x: 1.1666667, y: -0.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 391
+      y: 75
+      width: 6
+      height: 4
+    spriteID: 6e88722fbbb5a7d4497ffba88315e3e4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 391, y: 75}
+  - name: Hedge_229
+    originalName: 
+    pivot: {x: 0.40000004, y: -0.125}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 353
+      y: 221
+      width: 15
+      height: 8
+    spriteID: caff00e9384a6b34bb04810d0c28ca52
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 352, y: 221}
+  - name: Hedge_230
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 28
+      y: 494
+      width: 13
+      height: 14
+    spriteID: 130da89bba21b7f4d9ac3971ad1b1b6a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 28, y: 494}
+  - name: Hedge_231
+    originalName: 
+    pivot: {x: -0.5, y: -0.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 410
+      y: 72
+      width: 6
+      height: 10
+    spriteID: 8fdcc745aa3cdbb4bb1d42871e7334c1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 400, y: 72}
+  - name: Hedge_232
+    originalName: 
+    pivot: {x: 1.1666667, y: -0.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 410
+      y: 90
+      width: 6
+      height: 10
+    spriteID: 6338c02976e686141aa5566f5be01ecf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 410, y: 90}
+  - name: Hedge_233
+    originalName: 
+    pivot: {x: -0.125, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 316
+      y: 399
+      width: 8
+      height: 16
+    spriteID: b0e49bcaecda0b447a017d6ceb2aca44
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 308, y: 399}
+  - name: Hedge_234
+    originalName: 
+    pivot: {x: 0.7777778, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 332
+      y: 458
+      width: 9
+      height: 16
+    spriteID: 2dabd35de47c1f94fa67cf1007e91097
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 332, y: 458}
+  - name: Hedge_235
+    originalName: 
+    pivot: {x: 0.25, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 332
+      y: 268
+      width: 12
+      height: 16
+    spriteID: b5a1d02d1421c344f81c11f5789c45a4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 328, y: 268}
+  - name: Hedge_236
+    originalName: 
+    pivot: {x: 0.875, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 316
+      y: 423
+      width: 8
+      height: 16
+    spriteID: e11500003057d254fba2d6e3b73b22bf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 316, y: 423}
+  - name: Hedge_237
+    originalName: 
+    pivot: {x: -0.125, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 353
+      y: 197
+      width: 8
+      height: 16
+    spriteID: 734db2dd84957ed4ba1894a4ed1f9bab
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 345, y: 197}
+  - name: Hedge_238
+    originalName: 
+    pivot: {x: 1, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 317
+      y: 471
+      width: 7
+      height: 16
+    spriteID: 03a24981489fb36409520e30eb4091b6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 317, y: 471}
+  - name: Hedge_239
+    originalName: 
+    pivot: {x: 0, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 332
+      y: 482
+      width: 9
+      height: 16
+    spriteID: 122cc0dd10678d947aa59f45abb1907f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 325, y: 482}
+  - name: Hedge_240
+    originalName: 
+    pivot: {x: 0.7777778, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 353
+      y: 173
+      width: 9
+      height: 16
+    spriteID: dd89c900f5df610489f8f55987e42e7c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 353, y: 173}
+  - name: Hedge_241
+    originalName: 
+    pivot: {x: 0.35714287, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 271
+      y: 471
+      width: 14
+      height: 16
+    spriteID: d35faf4d15ab7a34d9da2a52d8c22321
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 269, y: 471}
+  - name: Hedge_242
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.0625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 332
+      y: 124
+      width: 13
+      height: 16
+    spriteID: 03426ccc5fa5d17438a7b27091253edf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 332, y: 124}
+  - name: Hedge_243
+    originalName: 
+    pivot: {x: -1.5, y: -16}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 391
+      y: 405
+      width: 2
+      height: 1
+    spriteID: 0dd2ab70d987d594688136e4658703b5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 381, y: 390}
+  spriteSheetImportData: []
+  tileSetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    uuid:
+      value0: 270112577
+      value1: 0
+      value2: 0
+      value3: 0
+    guid: 0
+    name: Environment
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Environment
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 16
+        y: 16
+        width: 320
+        height: 363
+      spriteId: 8cecbf963f931904e9077d1671339002
+    linkedCells: []
+    tileCells: []
+    tileSetIndex: 0
+    parentIndex: -1
+  tileSets:
+  - id: 0
+    name: Hedge
+    tileSize:
+      x: 16
+      y: 16
+    tiles:
+    - tileId: 1
+      size:
+        x: 16
+        y: 16
+      name: Hedge_1
+      spriteId: e26a14dea13f6fc4aa6d4e01b58fbf48
+    - tileId: 2
+      size:
+        x: 16
+        y: 16
+      name: Hedge_2
+      spriteId: d8c0fe93f895ce34e8d5d807f6576062
+    - tileId: 3
+      size:
+        x: 16
+        y: 16
+      name: Hedge_3
+      spriteId: 1685b41fbb8f284468727417a336e283
+    - tileId: 4
+      size:
+        x: 16
+        y: 16
+      name: Hedge_4
+      spriteId: f2dc78dbf195e344ba1d620cbbe358e7
+    - tileId: 5
+      size:
+        x: 16
+        y: 16
+      name: Hedge_5
+      spriteId: adb06583342d7b04787e012fa669faa7
+    - tileId: 6
+      size:
+        x: 16
+        y: 16
+      name: Hedge_6
+      spriteId: b651bb584c80c9f458969eac070280fc
+    - tileId: 7
+      size:
+        x: 16
+        y: 16
+      name: Hedge_7
+      spriteId: d8774ce2226cefe498b4f1cd36743382
+    - tileId: 8
+      size:
+        x: 16
+        y: 16
+      name: Hedge_8
+      spriteId: f8d4e1bf3508e9f41bd90bbfb164b631
+    - tileId: 9
+      size:
+        x: 16
+        y: 16
+      name: Hedge_9
+      spriteId: c07def944a5722044a8784b1804b8cd1
+    - tileId: 10
+      size:
+        x: 16
+        y: 16
+      name: Hedge_10
+      spriteId: 2eeff8721bfbaf2448b14b9035238327
+    - tileId: 11
+      size:
+        x: 16
+        y: 16
+      name: Hedge_11
+      spriteId: bd50a70e2633da34b9736e8c0a99dd21
+    - tileId: 12
+      size:
+        x: 16
+        y: 16
+      name: Hedge_12
+      spriteId: c4d18203710f29c4995e9ea04931ef05
+    - tileId: 13
+      size:
+        x: 16
+        y: 16
+      name: Hedge_13
+      spriteId: e6e3296061aff084f86eb23c1ab9d299
+    - tileId: 14
+      size:
+        x: 16
+        y: 16
+      name: Hedge_14
+      spriteId: 137587e84ee548743b645c3a58583c89
+    - tileId: 15
+      size:
+        x: 16
+        y: 16
+      name: Hedge_15
+      spriteId: c2d3a10601252424c802656a497798df
+    - tileId: 16
+      size:
+        x: 16
+        y: 16
+      name: Hedge_16
+      spriteId: 8cffad99681873841a6a6d083f29b874
+    - tileId: 17
+      size:
+        x: 16
+        y: 16
+      name: Hedge_17
+      spriteId: 7dc8a30385a6cc84d8addb859ac97065
+    - tileId: 18
+      size:
+        x: 16
+        y: 16
+      name: Hedge_18
+      spriteId: 7dff53cb25009c14691772a7f2b8e9a9
+    - tileId: 19
+      size:
+        x: 16
+        y: 16
+      name: Hedge_19
+      spriteId: 4ff35bf884118464f81e2150e86ed95c
+    - tileId: 20
+      size:
+        x: 16
+        y: 16
+      name: Hedge_20
+      spriteId: fe9ebd4071f3f8f429e8583611c7e80a
+    - tileId: 21
+      size:
+        x: 16
+        y: 16
+      name: Hedge_21
+      spriteId: 2a42c582c540800468f1ad7108eebd54
+    - tileId: 22
+      size:
+        x: 16
+        y: 16
+      name: Hedge_22
+      spriteId: 87165ff6550e14c4cbb426c7fefa384e
+    - tileId: 23
+      size:
+        x: 16
+        y: 16
+      name: Hedge_23
+      spriteId: 69a1208174b28e7479dd6ed53c77e93c
+    - tileId: 24
+      size:
+        x: 16
+        y: 16
+      name: Hedge_24
+      spriteId: 2cabda9fe4ca00a47aca069326e7d410
+    - tileId: 25
+      size:
+        x: 16
+        y: 16
+      name: Hedge_25
+      spriteId: 8532e2ed8d9970d439ded6ea33eb2abf
+    - tileId: 26
+      size:
+        x: 16
+        y: 16
+      name: Hedge_26
+      spriteId: 6f17eadbbe796a747a5920de49c34090
+    - tileId: 27
+      size:
+        x: 16
+        y: 16
+      name: Hedge_27
+      spriteId: e23f841d60b11e840a68962d361e8fe6
+    - tileId: 28
+      size:
+        x: 16
+        y: 16
+      name: Hedge_28
+      spriteId: 3887d9af7dae1e14f97f40ef8aac1825
+    - tileId: 29
+      size:
+        x: 16
+        y: 16
+      name: Hedge_29
+      spriteId: 4a8a4c689e84b5448806d49e50b64787
+    - tileId: 30
+      size:
+        x: 16
+        y: 16
+      name: Hedge_30
+      spriteId: a8ac1608993dea64ba16e265439e5155
+    - tileId: 31
+      size:
+        x: 16
+        y: 16
+      name: Hedge_31
+      spriteId: 7bb84c37626419d41a8df56d7eed1785
+    - tileId: 32
+      size:
+        x: 16
+        y: 16
+      name: Hedge_32
+      spriteId: e1f2159b9cdbb0e46a12251bfdcbfc0d
+    - tileId: 33
+      size:
+        x: 16
+        y: 16
+      name: Hedge_33
+      spriteId: 69fb32449010bd54eb0100e621b25bb3
+    - tileId: 34
+      size:
+        x: 16
+        y: 16
+      name: Hedge_34
+      spriteId: b2e03e64051e49b4295499da01b8a631
+    - tileId: 35
+      size:
+        x: 16
+        y: 16
+      name: Hedge_35
+      spriteId: 5e450d8ebf80ebd46abe253956d6e85b
+    - tileId: 36
+      size:
+        x: 16
+        y: 16
+      name: Hedge_36
+      spriteId: 610f9f26c6b178c45992dcb4685231c1
+    - tileId: 37
+      size:
+        x: 16
+        y: 16
+      name: Hedge_37
+      spriteId: 736f82cbdc32b7140a8665c3ab2ab651
+    - tileId: 38
+      size:
+        x: 16
+        y: 16
+      name: Hedge_38
+      spriteId: 199f7dd8023335745ace4194695d6710
+    - tileId: 39
+      size:
+        x: 16
+        y: 16
+      name: Hedge_39
+      spriteId: 2a802072452ad3d4f8c384de5793dcb4
+    - tileId: 40
+      size:
+        x: 16
+        y: 16
+      name: Hedge_40
+      spriteId: 2cbebe163a1162449ad353dd94362a1b
+    - tileId: 41
+      size:
+        x: 16
+        y: 16
+      name: Hedge_41
+      spriteId: 473d4c23f4ba8fc42860990c3a87fee1
+    - tileId: 42
+      size:
+        x: 16
+        y: 16
+      name: Hedge_42
+      spriteId: ee7ec840e832c024cb38a7e70c0d9307
+    - tileId: 43
+      size:
+        x: 16
+        y: 16
+      name: Hedge_43
+      spriteId: f1980ca1ca651f7469acf3a6994550f1
+    - tileId: 44
+      size:
+        x: 16
+        y: 16
+      name: Hedge_44
+      spriteId: 4553c6c1f444a9948b874297d907d685
+    - tileId: 45
+      size:
+        x: 16
+        y: 16
+      name: Hedge_45
+      spriteId: da1a3b9f71c2f2d4186ff65c6257c0dc
+    - tileId: 46
+      size:
+        x: 16
+        y: 16
+      name: Hedge_46
+      spriteId: b2ec089fd1b08304fa9566f1b562464b
+    - tileId: 47
+      size:
+        x: 16
+        y: 16
+      name: Hedge_47
+      spriteId: adf43a141af072445b9113457e201eb2
+    - tileId: 48
+      size:
+        x: 16
+        y: 16
+      name: Hedge_48
+      spriteId: 166141e22ff368744bf4f82c1c08d63e
+    - tileId: 49
+      size:
+        x: 16
+        y: 16
+      name: Hedge_49
+      spriteId: 4cd91e1e61ccfbd449e1608ee29c1629
+    - tileId: 50
+      size:
+        x: 16
+        y: 16
+      name: Hedge_50
+      spriteId: fc35f21958f4fe14c9750dcc0d8ca33e
+    - tileId: 51
+      size:
+        x: 16
+        y: 16
+      name: Hedge_51
+      spriteId: 34fefeffd3e899446b93c46fd1d910ad
+    - tileId: 52
+      size:
+        x: 16
+        y: 16
+      name: Hedge_52
+      spriteId: 3efc40809865d9f42a587ea57d518a20
+    - tileId: 53
+      size:
+        x: 16
+        y: 16
+      name: Hedge_53
+      spriteId: 80c5436ffda70674f9c2058b6e9283a5
+    - tileId: 54
+      size:
+        x: 16
+        y: 16
+      name: Hedge_54
+      spriteId: 736d146c9514fa54f96a0107c46d36f8
+    - tileId: 55
+      size:
+        x: 16
+        y: 16
+      name: Hedge_55
+      spriteId: 5cadcf0ad96395e4eb10e0b6c3535dd8
+    - tileId: 56
+      size:
+        x: 16
+        y: 16
+      name: Hedge_56
+      spriteId: 52e22e839a408e04a9977231f0b402f1
+    - tileId: 57
+      size:
+        x: 16
+        y: 16
+      name: Hedge_57
+      spriteId: 05b1df7a42829a5458bfc18b9707b4e7
+    - tileId: 58
+      size:
+        x: 16
+        y: 16
+      name: Hedge_58
+      spriteId: e13c028fbbf373a428fd6146883e432f
+    - tileId: 59
+      size:
+        x: 16
+        y: 16
+      name: Hedge_59
+      spriteId: 079c4d828b5ab4e4f887059746236f1f
+    - tileId: 60
+      size:
+        x: 16
+        y: 16
+      name: Hedge_60
+      spriteId: d9fb2352d3de59740bc5f23e6003a07d
+    - tileId: 61
+      size:
+        x: 16
+        y: 16
+      name: Hedge_61
+      spriteId: 1660a4538aec3e84798c612c8f9cd79a
+    - tileId: 62
+      size:
+        x: 16
+        y: 16
+      name: Hedge_62
+      spriteId: e3a376d6eebe23c44b5abae058903dcf
+    - tileId: 63
+      size:
+        x: 16
+        y: 16
+      name: Hedge_63
+      spriteId: 94bad3a89653de347bab0a3c4a6f434a
+    - tileId: 64
+      size:
+        x: 16
+        y: 16
+      name: Hedge_64
+      spriteId: d1f1d0741c6978d4a93825556222e1ec
+    - tileId: 65
+      size:
+        x: 16
+        y: 16
+      name: Hedge_65
+      spriteId: 3f396d26378e1e045af4b990d755e9c3
+    - tileId: 66
+      size:
+        x: 16
+        y: 16
+      name: Hedge_66
+      spriteId: d54d94c4cdd5a3e458aa5500dc9a54e1
+    - tileId: 67
+      size:
+        x: 16
+        y: 16
+      name: Hedge_67
+      spriteId: a1ba32e16bd5f4644b208f610ef0e112
+    - tileId: 68
+      size:
+        x: 16
+        y: 16
+      name: Hedge_68
+      spriteId: cc8fbc3086a50d9458b5d705ea23491d
+    - tileId: 69
+      size:
+        x: 16
+        y: 16
+      name: Hedge_69
+      spriteId: 377b792ad859b7946abf16e6858eb2ad
+    - tileId: 70
+      size:
+        x: 16
+        y: 16
+      name: Hedge_70
+      spriteId: 54cc985f7ea0f9e4db882519c2fe9a18
+    - tileId: 71
+      size:
+        x: 16
+        y: 16
+      name: Hedge_71
+      spriteId: 9233b3f3d25b16e438aeab4bf1309199
+    - tileId: 72
+      size:
+        x: 16
+        y: 16
+      name: Hedge_72
+      spriteId: 0232991907a967c459f4bc111b449aaa
+    - tileId: 73
+      size:
+        x: 16
+        y: 16
+      name: Hedge_73
+      spriteId: 69bb4fae23e51d64aad4b1b0c6e84980
+    - tileId: 74
+      size:
+        x: 16
+        y: 16
+      name: Hedge_74
+      spriteId: 5b0ca91c6494b9f4eb57badf4addc1cd
+    - tileId: 75
+      size:
+        x: 16
+        y: 16
+      name: Hedge_75
+      spriteId: 5583942c8ac8d8347b1a693e65026a74
+    - tileId: 76
+      size:
+        x: 16
+        y: 16
+      name: Hedge_76
+      spriteId: 6516b3fc5b3d8464f94377bd710e9b49
+    - tileId: 77
+      size:
+        x: 16
+        y: 16
+      name: Hedge_77
+      spriteId: 90146bd9210eb00499fb7213b5b7c1bb
+    - tileId: 78
+      size:
+        x: 16
+        y: 16
+      name: Hedge_78
+      spriteId: 75656a10ac1826642836e46cb84af46f
+    - tileId: 79
+      size:
+        x: 16
+        y: 16
+      name: Hedge_79
+      spriteId: 3f12d6bd140dcdf4186b3d92dde871f0
+    - tileId: 80
+      size:
+        x: 16
+        y: 16
+      name: Hedge_80
+      spriteId: 80667c0e10161ec47a70b40525459ce0
+    - tileId: 81
+      size:
+        x: 16
+        y: 16
+      name: Hedge_81
+      spriteId: 344ea58e613feb448a5d0a099be3a7fe
+    - tileId: 82
+      size:
+        x: 16
+        y: 16
+      name: Hedge_82
+      spriteId: 6bcadaa5614bb2e44934557c8801f710
+    - tileId: 83
+      size:
+        x: 16
+        y: 16
+      name: Hedge_83
+      spriteId: d5e85a3c67002064c8de1c5750243f98
+    - tileId: 84
+      size:
+        x: 16
+        y: 16
+      name: Hedge_84
+      spriteId: cdf3fd0f4d34b1d4dbb8649051873272
+    - tileId: 85
+      size:
+        x: 16
+        y: 16
+      name: Hedge_85
+      spriteId: a1b40f254b548a14bb6e8ca460d99a06
+    - tileId: 86
+      size:
+        x: 16
+        y: 16
+      name: Hedge_86
+      spriteId: 2eb47830fcc55e642a075a51066a0159
+    - tileId: 87
+      size:
+        x: 16
+        y: 16
+      name: Hedge_87
+      spriteId: 391b06d0913cf9c489e114faec03d104
+    - tileId: 88
+      size:
+        x: 16
+        y: 16
+      name: Hedge_88
+      spriteId: 34f2167c13d11044ea6c44a419d880ba
+    - tileId: 89
+      size:
+        x: 16
+        y: 16
+      name: Hedge_89
+      spriteId: 9255e6e3553d6d948be6955813964f5a
+    - tileId: 90
+      size:
+        x: 16
+        y: 16
+      name: Hedge_90
+      spriteId: db525a817b61ffa40a27583638ca336d
+    - tileId: 91
+      size:
+        x: 16
+        y: 16
+      name: Hedge_91
+      spriteId: 783044605c1762044979e591313a06a9
+    - tileId: 92
+      size:
+        x: 16
+        y: 16
+      name: Hedge_92
+      spriteId: 92e03bdf7d420b240addb894743e8b98
+    - tileId: 93
+      size:
+        x: 16
+        y: 16
+      name: Hedge_93
+      spriteId: f8a1289eb0f413e4aac7f8b4dd1a92e5
+    - tileId: 94
+      size:
+        x: 16
+        y: 16
+      name: Hedge_94
+      spriteId: 6d7d74a6ab878af4cb48f3c126db5f6d
+    - tileId: 95
+      size:
+        x: 16
+        y: 16
+      name: Hedge_95
+      spriteId: 1cbe8db40c818c249b47c5f0ad6ee3d7
+    - tileId: 96
+      size:
+        x: 16
+        y: 16
+      name: Hedge_96
+      spriteId: 1deb0050f471885489b953e848d0c3c5
+    - tileId: 97
+      size:
+        x: 16
+        y: 16
+      name: Hedge_97
+      spriteId: 2ca5c845a1f3037449d236d1e59e7d60
+    - tileId: 98
+      size:
+        x: 16
+        y: 16
+      name: Hedge_98
+      spriteId: b5c88fef745acae42aac77a217ff9ffe
+    - tileId: 99
+      size:
+        x: 16
+        y: 16
+      name: Hedge_99
+      spriteId: ff44f00f44598314faa01e5b3d0ff6fc
+    - tileId: 100
+      size:
+        x: 16
+        y: 16
+      name: Hedge_100
+      spriteId: 9c9c22d0360152848a4db22f7830d7bc
+    - tileId: 101
+      size:
+        x: 16
+        y: 16
+      name: Hedge_101
+      spriteId: 9c60d786d867a4b489c6602e5806a96c
+    - tileId: 102
+      size:
+        x: 16
+        y: 16
+      name: Hedge_102
+      spriteId: 10eeafced375af74ea33a244d8a5a751
+    - tileId: 103
+      size:
+        x: 16
+        y: 16
+      name: Hedge_103
+      spriteId: 8bce4eeb29dc7474d9444a972b78192c
+    - tileId: 104
+      size:
+        x: 16
+        y: 16
+      name: Hedge_104
+      spriteId: 6fb26629219303744ab2e38e123363b1
+    - tileId: 105
+      size:
+        x: 16
+        y: 16
+      name: Hedge_105
+      spriteId: f53d32b42f17a694593f2fa99f2c0ca3
+    - tileId: 106
+      size:
+        x: 16
+        y: 16
+      name: Hedge_106
+      spriteId: 7beaccd7f98012a4e8be325124f171f9
+    - tileId: 107
+      size:
+        x: 16
+        y: 16
+      name: Hedge_107
+      spriteId: 013ebfe08a7cbb449a9b2ca3a67b60fe
+    - tileId: 108
+      size:
+        x: 16
+        y: 16
+      name: Hedge_108
+      spriteId: 3d1c17160c39d4143b6110f89160dc84
+    - tileId: 109
+      size:
+        x: 16
+        y: 16
+      name: Hedge_109
+      spriteId: e7d788ea649dfef48a91c250fed922ce
+    - tileId: 110
+      size:
+        x: 16
+        y: 16
+      name: Hedge_110
+      spriteId: a81cc1d560d13934ba3bba5631c6851d
+    - tileId: 111
+      size:
+        x: 16
+        y: 16
+      name: Hedge_111
+      spriteId: ae0edfc4eedec6240b3276ee14e2f39a
+    - tileId: 112
+      size:
+        x: 16
+        y: 16
+      name: Hedge_112
+      spriteId: dc378a88eebd7f349afb28cd4a89d409
+    - tileId: 113
+      size:
+        x: 16
+        y: 16
+      name: Hedge_113
+      spriteId: 5baf0f52190455d4c8bc6ecd534693d2
+    - tileId: 114
+      size:
+        x: 16
+        y: 16
+      name: Hedge_114
+      spriteId: d94d4baa29701ab41b59e983cbdf2cd3
+    - tileId: 115
+      size:
+        x: 16
+        y: 16
+      name: Hedge_115
+      spriteId: 98521aefa11d9e14db987bf8475b4769
+    - tileId: 116
+      size:
+        x: 16
+        y: 16
+      name: Hedge_116
+      spriteId: e44da58bcec1da24d85eab3db7f32633
+    - tileId: 117
+      size:
+        x: 16
+        y: 16
+      name: Hedge_117
+      spriteId: 3292b451f736c7e49a6aa68c634de4ba
+    - tileId: 118
+      size:
+        x: 16
+        y: 16
+      name: Hedge_118
+      spriteId: 59321ab4e054a0443926ac72ec86a32b
+    - tileId: 119
+      size:
+        x: 16
+        y: 16
+      name: Hedge_119
+      spriteId: 39d45f441d6adb8408d3033297d1f8ef
+    - tileId: 120
+      size:
+        x: 16
+        y: 16
+      name: Hedge_120
+      spriteId: 3813b77e6a32632459fa0f363b604631
+    - tileId: 121
+      size:
+        x: 16
+        y: 16
+      name: Hedge_121
+      spriteId: d0ba459caab8ee1418aa59243994f9eb
+    - tileId: 122
+      size:
+        x: 16
+        y: 16
+      name: Hedge_122
+      spriteId: f34ef507c1cb6754384697c798ce715a
+    - tileId: 123
+      size:
+        x: 16
+        y: 16
+      name: Hedge_123
+      spriteId: 1600b9b0517f3f74ba9f0ca4a42e60e0
+    - tileId: 124
+      size:
+        x: 16
+        y: 16
+      name: Hedge_124
+      spriteId: 4a84a528ab7f5c143b5bbd5ed68b0e39
+    - tileId: 125
+      size:
+        x: 16
+        y: 16
+      name: Hedge_125
+      spriteId: 12718ebd6204b584384f38b651287be5
+    - tileId: 126
+      size:
+        x: 16
+        y: 16
+      name: Hedge_126
+      spriteId: 60e52747493eda2469ef8cd87dd61edb
+    - tileId: 127
+      size:
+        x: 16
+        y: 16
+      name: Hedge_127
+      spriteId: 203ff2364549b3047932f7d2e48bc7cd
+    - tileId: 128
+      size:
+        x: 16
+        y: 16
+      name: Hedge_128
+      spriteId: d1169a6b4eda54c49bed67393a7a1ac1
+    - tileId: 129
+      size:
+        x: 16
+        y: 16
+      name: Hedge_129
+      spriteId: 72e4eb90a52d9bd43bb1279ef1ce999b
+    - tileId: 130
+      size:
+        x: 16
+        y: 16
+      name: Hedge_130
+      spriteId: 87caaef45ce6f654e93096f40f795774
+    - tileId: 131
+      size:
+        x: 16
+        y: 16
+      name: Hedge_131
+      spriteId: 3e6f771d239ed0041823d8a5ecca21d7
+    - tileId: 132
+      size:
+        x: 16
+        y: 16
+      name: Hedge_132
+      spriteId: d19466552479352429ff075dd0887049
+    - tileId: 133
+      size:
+        x: 16
+        y: 16
+      name: Hedge_133
+      spriteId: f23456cf4782e6f488a0a6b001e155e0
+    - tileId: 134
+      size:
+        x: 16
+        y: 16
+      name: Hedge_134
+      spriteId: db21a478f15e5ff45b485bc0041e9f63
+    - tileId: 135
+      size:
+        x: 16
+        y: 16
+      name: Hedge_135
+      spriteId: 072d4853a8007ea479dbcd42d1da7ddc
+    - tileId: 136
+      size:
+        x: 16
+        y: 16
+      name: Hedge_136
+      spriteId: c28acbd765574994faf2c94dfdbcbdcc
+    - tileId: 137
+      size:
+        x: 16
+        y: 16
+      name: Hedge_137
+      spriteId: 1247f64dfffc27e449d2e6db18935c2e
+    - tileId: 138
+      size:
+        x: 16
+        y: 16
+      name: Hedge_138
+      spriteId: d1a513442316f314094ddeb8d2b60d08
+    - tileId: 139
+      size:
+        x: 16
+        y: 16
+      name: Hedge_139
+      spriteId: 63f1d5033cd061f4fbb95cea1e1b8f9a
+    - tileId: 140
+      size:
+        x: 16
+        y: 16
+      name: Hedge_140
+      spriteId: c0e42af9337189544b2e4dd3ddb3bce6
+    - tileId: 141
+      size:
+        x: 16
+        y: 16
+      name: Hedge_141
+      spriteId: fa7b6d001ba1e7f48aac5d1b6485ccb6
+    - tileId: 142
+      size:
+        x: 16
+        y: 16
+      name: Hedge_142
+      spriteId: 3ea4376220fb349479d4c59a7ee2e280
+    - tileId: 143
+      size:
+        x: 16
+        y: 16
+      name: Hedge_143
+      spriteId: a69c384a6dfd0d847885d34c9831f7d4
+    - tileId: 144
+      size:
+        x: 16
+        y: 16
+      name: Hedge_144
+      spriteId: 4eda63af80cd3464ca06bcf626071a4e
+    - tileId: 145
+      size:
+        x: 16
+        y: 16
+      name: Hedge_145
+      spriteId: 5af83c580f38cf14f817a2fdffc16129
+    - tileId: 146
+      size:
+        x: 16
+        y: 16
+      name: Hedge_146
+      spriteId: 7fcaedef6f4a02242807d14490cf3028
+    - tileId: 147
+      size:
+        x: 16
+        y: 16
+      name: Hedge_147
+      spriteId: 733e7022870f73a4fb13f246a729083f
+    - tileId: 148
+      size:
+        x: 16
+        y: 16
+      name: Hedge_148
+      spriteId: 8c505d388b3c9fb4f9757356441eef65
+    - tileId: 149
+      size:
+        x: 16
+        y: 16
+      name: Hedge_149
+      spriteId: 7e020bf7f0dee684e979fab7acccba5d
+    - tileId: 150
+      size:
+        x: 16
+        y: 16
+      name: Hedge_150
+      spriteId: 6f539fc51f0d6e344a88d1dff3dfc091
+    - tileId: 151
+      size:
+        x: 16
+        y: 16
+      name: Hedge_151
+      spriteId: 6bcb31c062f5aa2459af07752ee06c70
+    - tileId: 152
+      size:
+        x: 16
+        y: 16
+      name: Hedge_152
+      spriteId: e180933783412ad44a8de3f8a51d8b21
+    - tileId: 153
+      size:
+        x: 16
+        y: 16
+      name: Hedge_153
+      spriteId: b139c4e28c2dcc148af5906bbd48d06c
+    - tileId: 154
+      size:
+        x: 16
+        y: 16
+      name: Hedge_154
+      spriteId: 2801486fef680624da5e81eaea55b07f
+    - tileId: 155
+      size:
+        x: 16
+        y: 16
+      name: Hedge_155
+      spriteId: 8d94d4925922b384aadd9f63f27eb559
+    - tileId: 156
+      size:
+        x: 16
+        y: 16
+      name: Hedge_156
+      spriteId: 3a8a079fd82bb34479b3dd92405398b1
+    - tileId: 157
+      size:
+        x: 16
+        y: 16
+      name: Hedge_157
+      spriteId: 027be85204f1a6f49b5952bf4921e1cf
+    - tileId: 158
+      size:
+        x: 16
+        y: 16
+      name: Hedge_158
+      spriteId: 7ef5d1e6a3984fb498a29031b9d096ec
+    - tileId: 159
+      size:
+        x: 16
+        y: 16
+      name: Hedge_159
+      spriteId: 439c7669f44eeb848ae6def75244f53e
+    - tileId: 160
+      size:
+        x: 16
+        y: 16
+      name: Hedge_160
+      spriteId: 9e7f5d5b0c2134448897d7d73337ff0f
+    - tileId: 161
+      size:
+        x: 16
+        y: 16
+      name: Hedge_161
+      spriteId: df0cc2a0476a43b45a92e00111d4cf65
+    - tileId: 162
+      size:
+        x: 16
+        y: 16
+      name: Hedge_162
+      spriteId: 8601583ec7641974995da72da38e52d0
+    - tileId: 163
+      size:
+        x: 16
+        y: 16
+      name: Hedge_163
+      spriteId: 3333583476c4a044e81c69986bb99b2c
+    - tileId: 164
+      size:
+        x: 16
+        y: 16
+      name: Hedge_164
+      spriteId: fce28cdc3792d944cbdad5790921a24b
+    - tileId: 165
+      size:
+        x: 16
+        y: 16
+      name: Hedge_165
+      spriteId: c50285dc031a9a245971bdabf204ab8a
+    - tileId: 166
+      size:
+        x: 16
+        y: 16
+      name: Hedge_166
+      spriteId: f5c02657e626f5149b3d33026ce80dd9
+    - tileId: 167
+      size:
+        x: 16
+        y: 16
+      name: Hedge_167
+      spriteId: 0cc685547c837c34ba9080af2436ba6a
+    - tileId: 168
+      size:
+        x: 16
+        y: 16
+      name: Hedge_168
+      spriteId: 578a83aded0097e4f969e7254b9a27ac
+    - tileId: 169
+      size:
+        x: 16
+        y: 16
+      name: Hedge_169
+      spriteId: 5d0ed8647bf62ba438fbb42a810fe5e4
+    - tileId: 170
+      size:
+        x: 16
+        y: 16
+      name: Hedge_170
+      spriteId: 13f38859a2bd5d647a6abd3de1a71c88
+    - tileId: 171
+      size:
+        x: 16
+        y: 16
+      name: Hedge_171
+      spriteId: 8e83f365d3032cc49ac22d4d9175d8e6
+    - tileId: 172
+      size:
+        x: 16
+        y: 16
+      name: Hedge_172
+      spriteId: 015c1a5feb109ca4d957f2527e7f5f4d
+    - tileId: 173
+      size:
+        x: 16
+        y: 16
+      name: Hedge_173
+      spriteId: 004d20c37e08ef34cb5f7186c1800603
+    - tileId: 174
+      size:
+        x: 16
+        y: 16
+      name: Hedge_174
+      spriteId: 6787111a56f2a1344bf36932d0ec7a88
+    - tileId: 175
+      size:
+        x: 16
+        y: 16
+      name: Hedge_175
+      spriteId: 82bc5d784384b154ba2ebd4db39c421b
+    - tileId: 176
+      size:
+        x: 16
+        y: 16
+      name: Hedge_176
+      spriteId: dfbdface0a6e07346ae45b2a1e5faaa1
+    - tileId: 177
+      size:
+        x: 16
+        y: 16
+      name: Hedge_177
+      spriteId: a64a8715d8e86cc468d8c96d70bdafa3
+    - tileId: 178
+      size:
+        x: 16
+        y: 16
+      name: Hedge_178
+      spriteId: 1fe093951b6302648a4e25fded7c2c11
+    - tileId: 179
+      size:
+        x: 16
+        y: 16
+      name: Hedge_179
+      spriteId: 07fbf2a4044948449915116113f3d9ea
+    - tileId: 180
+      size:
+        x: 16
+        y: 16
+      name: Hedge_180
+      spriteId: 8775e330788dd274ea044184ee431953
+    - tileId: 181
+      size:
+        x: 16
+        y: 16
+      name: Hedge_181
+      spriteId: 633e54c9bed619a4f956412d2f297e85
+    - tileId: 182
+      size:
+        x: 16
+        y: 16
+      name: Hedge_182
+      spriteId: 1de5a061f6c4bed4da6148975c13a615
+    - tileId: 183
+      size:
+        x: 16
+        y: 16
+      name: Hedge_183
+      spriteId: b592397d96dffe948b13bc4ccafa2589
+    - tileId: 184
+      size:
+        x: 16
+        y: 16
+      name: Hedge_184
+      spriteId: 94e58059da001b548975093c4cb993fc
+    - tileId: 185
+      size:
+        x: 16
+        y: 16
+      name: Hedge_185
+      spriteId: d020abcde8b093a40b9bf17ee005b0ee
+    - tileId: 186
+      size:
+        x: 16
+        y: 16
+      name: Hedge_186
+      spriteId: 032c262c35e8afd4aba760499957673c
+    - tileId: 187
+      size:
+        x: 16
+        y: 16
+      name: Hedge_187
+      spriteId: c639fb70b06dfaf4b90bd04613c4939c
+    - tileId: 188
+      size:
+        x: 16
+        y: 16
+      name: Hedge_188
+      spriteId: c7df1a66f19f22d4d96990638593a49b
+    - tileId: 189
+      size:
+        x: 16
+        y: 16
+      name: Hedge_189
+      spriteId: 1e83b22544153ef4184c470c8c1904ef
+    - tileId: 190
+      size:
+        x: 16
+        y: 16
+      name: Hedge_190
+      spriteId: a2455fcc124697041a0575b927127038
+    - tileId: 191
+      size:
+        x: 16
+        y: 16
+      name: Hedge_191
+      spriteId: 0fb32bcab2ee402459e4fb6a86622aa3
+    - tileId: 192
+      size:
+        x: 16
+        y: 16
+      name: Hedge_192
+      spriteId: b1749fe2f78de094b812c059f340273c
+    - tileId: 193
+      size:
+        x: 16
+        y: 16
+      name: Hedge_193
+      spriteId: df4ef635f3e10d94fabc8eb4c57c35fc
+    - tileId: 194
+      size:
+        x: 16
+        y: 16
+      name: Hedge_194
+      spriteId: db937133e286fda4a945d0a18fbc63bb
+    - tileId: 195
+      size:
+        x: 16
+        y: 16
+      name: Hedge_195
+      spriteId: 31e97544fed343348a4c073ed51d1758
+    - tileId: 196
+      size:
+        x: 16
+        y: 16
+      name: Hedge_196
+      spriteId: 7c29017e27d9566488e1d41c002181f7
+    - tileId: 197
+      size:
+        x: 16
+        y: 16
+      name: Hedge_197
+      spriteId: f2cc0a4252202da469d0bfb21edcb002
+    - tileId: 198
+      size:
+        x: 16
+        y: 16
+      name: Hedge_198
+      spriteId: d69bf46dfdfc2b84d83f3f0d5e376d08
+    - tileId: 199
+      size:
+        x: 16
+        y: 16
+      name: Hedge_199
+      spriteId: 7d2e768ad0a9984408de68b5313c27c9
+    - tileId: 200
+      size:
+        x: 16
+        y: 16
+      name: Hedge_200
+      spriteId: a58381e3eee3d2c4eba482570ec6cec7
+    - tileId: 201
+      size:
+        x: 16
+        y: 16
+      name: Hedge_201
+      spriteId: 58cfe3cc8f9cec04b8f4ac430576afb4
+    - tileId: 202
+      size:
+        x: 16
+        y: 16
+      name: Hedge_202
+      spriteId: b429474c76a917b45a8ea384dcdd68d5
+    - tileId: 203
+      size:
+        x: 16
+        y: 16
+      name: Hedge_203
+      spriteId: 637ac44bab135a0468d3521d57607c06
+    - tileId: 204
+      size:
+        x: 16
+        y: 16
+      name: Hedge_204
+      spriteId: f56bed71bab71db46814c5b20cf17b26
+    - tileId: 205
+      size:
+        x: 16
+        y: 16
+      name: Hedge_205
+      spriteId: 459125d16b384c54a9ceed4851dfdb60
+    - tileId: 206
+      size:
+        x: 16
+        y: 16
+      name: Hedge_206
+      spriteId: cbb21959e7347654f8aad01f47e9af4b
+    - tileId: 207
+      size:
+        x: 16
+        y: 16
+      name: Hedge_207
+      spriteId: 0e0a2a5dadcb6a6429ba81d6c00787a9
+    - tileId: 208
+      size:
+        x: 16
+        y: 16
+      name: Hedge_208
+      spriteId: 9ead74a84ecddcb48989ec483b0269e0
+    - tileId: 209
+      size:
+        x: 16
+        y: 16
+      name: Hedge_209
+      spriteId: 4b8ed86debac5ad48b18683b5221c95b
+    - tileId: 210
+      size:
+        x: 16
+        y: 16
+      name: Hedge_210
+      spriteId: 48dee2f182e5ed3419bb31aab365fed5
+    - tileId: 211
+      size:
+        x: 16
+        y: 16
+      name: Hedge_211
+      spriteId: 4c777f0b314c6374e81e436b1351334d
+    - tileId: 212
+      size:
+        x: 16
+        y: 16
+      name: Hedge_212
+      spriteId: ac6cc76686b850941903cb0f491f8e4d
+    - tileId: 213
+      size:
+        x: 16
+        y: 16
+      name: Hedge_213
+      spriteId: 7d90a6b9fabbc5a4ca1e60c673c16624
+    - tileId: 214
+      size:
+        x: 16
+        y: 16
+      name: Hedge_214
+      spriteId: b839f0493f3a0074ba998c488d793d55
+    - tileId: 215
+      size:
+        x: 16
+        y: 16
+      name: Hedge_215
+      spriteId: d1ac6973d8c742e48b12e6d638a800c1
+    - tileId: 216
+      size:
+        x: 16
+        y: 16
+      name: Hedge_216
+      spriteId: 837bbbd3ef1a8f34b89fa458d72abf4b
+    - tileId: 217
+      size:
+        x: 16
+        y: 16
+      name: Hedge_217
+      spriteId: 51343d7d74a0e1b4aaa276aa8749dba3
+    - tileId: 218
+      size:
+        x: 16
+        y: 16
+      name: Hedge_218
+      spriteId: 8f40810dc1e8eab4495a91c8beb5652a
+    - tileId: 219
+      size:
+        x: 16
+        y: 16
+      name: Hedge_219
+      spriteId: 2cdc2ca92c637fd4fafbe5bc1ca02389
+    - tileId: 220
+      size:
+        x: 16
+        y: 16
+      name: Hedge_220
+      spriteId: c2051e94f80d9fd4c9366fad87466da0
+    - tileId: 221
+      size:
+        x: 16
+        y: 16
+      name: Hedge_221
+      spriteId: 3d8c7d1f9d15c204f83b73e8f3660f92
+    - tileId: 222
+      size:
+        x: 16
+        y: 16
+      name: Hedge_222
+      spriteId: 365fe4f616597e1429991fadac4da3cf
+    - tileId: 223
+      size:
+        x: 16
+        y: 16
+      name: Hedge_223
+      spriteId: 4e4633609518bd64a862d2818902b430
+    - tileId: 224
+      size:
+        x: 16
+        y: 16
+      name: Hedge_224
+      spriteId: 7586d4c7cec6c5a49b1b8e700584b808
+    - tileId: 225
+      size:
+        x: 16
+        y: 16
+      name: Hedge_225
+      spriteId: e3e24634dfe655242b3380e2e4dc93d8
+    - tileId: 226
+      size:
+        x: 16
+        y: 16
+      name: Hedge_226
+      spriteId: 34c693b32ace5ac488a2d742cc60ec5d
+    - tileId: 227
+      size:
+        x: 16
+        y: 16
+      name: Hedge_227
+      spriteId: 3b5f1d96270509a4da4d8a3f89cdc76a
+    - tileId: 228
+      size:
+        x: 16
+        y: 16
+      name: Hedge_228
+      spriteId: 6e88722fbbb5a7d4497ffba88315e3e4
+    - tileId: 229
+      size:
+        x: 16
+        y: 16
+      name: Hedge_229
+      spriteId: caff00e9384a6b34bb04810d0c28ca52
+    - tileId: 230
+      size:
+        x: 16
+        y: 16
+      name: Hedge_230
+      spriteId: 130da89bba21b7f4d9ac3971ad1b1b6a
+    - tileId: 231
+      size:
+        x: 16
+        y: 16
+      name: Hedge_231
+      spriteId: 8fdcc745aa3cdbb4bb1d42871e7334c1
+    - tileId: 232
+      size:
+        x: 16
+        y: 16
+      name: Hedge_232
+      spriteId: 6338c02976e686141aa5566f5be01ecf
+    - tileId: 233
+      size:
+        x: 16
+        y: 16
+      name: Hedge_233
+      spriteId: b0e49bcaecda0b447a017d6ceb2aca44
+    - tileId: 234
+      size:
+        x: 16
+        y: 16
+      name: Hedge_234
+      spriteId: 2dabd35de47c1f94fa67cf1007e91097
+    - tileId: 235
+      size:
+        x: 16
+        y: 16
+      name: Hedge_235
+      spriteId: b5a1d02d1421c344f81c11f5789c45a4
+    - tileId: 236
+      size:
+        x: 16
+        y: 16
+      name: Hedge_236
+      spriteId: e11500003057d254fba2d6e3b73b22bf
+    - tileId: 237
+      size:
+        x: 16
+        y: 16
+      name: Hedge_237
+      spriteId: 734db2dd84957ed4ba1894a4ed1f9bab
+    - tileId: 238
+      size:
+        x: 16
+        y: 16
+      name: Hedge_238
+      spriteId: 03a24981489fb36409520e30eb4091b6
+    - tileId: 239
+      size:
+        x: 16
+        y: 16
+      name: Hedge_239
+      spriteId: 122cc0dd10678d947aa59f45abb1907f
+    - tileId: 240
+      size:
+        x: 16
+        y: 16
+      name: Hedge_240
+      spriteId: dd89c900f5df610489f8f55987e42e7c
+    - tileId: 241
+      size:
+        x: 16
+        y: 16
+      name: Hedge_241
+      spriteId: d35faf4d15ab7a34d9da2a52d8c22321
+    - tileId: 242
+      size:
+        x: 16
+        y: 16
+      name: Hedge_242
+      spriteId: 03426ccc5fa5d17438a7b27091253edf
+    - tileId: 243
+      size:
+        x: 16
+        y: 16
+      name: Hedge_243
+      spriteId: 0dd2ab70d987d594688136e4658703b5
+    guid: -240490621
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 384, y: 400}
+  previousTextureSize: {x: 512, y: 512}
