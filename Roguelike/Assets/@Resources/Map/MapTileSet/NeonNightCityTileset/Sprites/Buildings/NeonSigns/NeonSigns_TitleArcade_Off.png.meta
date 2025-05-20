@@ -124,6 +124,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -272,7 +285,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      NeonSigns_TitleArcade_Off_0: -7838390700139694921
+      NeonSigns_TitleArcade_Off_1: 4893450030883547758
+      NeonSigns_TitleArcade_Off_2: -5724483794497317747
+      NeonSigns_TitleArcade_Off_3: 983625581214287216
+      NeonSigns_TitleArcade_Off_4: -525820588886226361
+      NeonSigns_TitleArcade_Off_5: -8906458849500314508
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

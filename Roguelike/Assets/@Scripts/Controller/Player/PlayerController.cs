@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Net;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -26,7 +27,7 @@ public class PlayerController : MonoBehaviour
     public int comboCount = 0;
     public bool isJumping = false;
     public bool isAttacking = false;
-    
+    private Coroutine comboResetCoroutine;
     //public RuntimeAnimatorController handAnim;
     //public RuntimeAnimatorController SwordAnim;
     //public MonoBehaviour HandAnimScript;
@@ -91,7 +92,7 @@ public class PlayerController : MonoBehaviour
     
     void Move()
     {
-        if (Input.GetButton(Define.Horizontal) && (isAttacking == false || weaponType==WeaponType.Gun))
+        if (Input.GetButton(Define.Horizontal)/* && (isAttacking == false || weaponType==WeaponType.Gun)*/)
         {
             h = Input.GetAxisRaw(Define.Horizontal);
             Vector2 moveDir = new Vector2(h, 0);
@@ -129,7 +130,8 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.LeftControl))
         {
             isAttacking = true;
-            anim.SetBool(Define.isAttackHash, true);
+            //anim.SetBool(Define.isAttackHash, true);
+            anim.SetTrigger("Attack");
             if (weaponType == WeaponType.Gun)
             {
                 GameObject fireEffect = Instantiate(FireEffect, FirePoint);
@@ -142,8 +144,8 @@ public class PlayerController : MonoBehaviour
         {
             if (weaponType != WeaponType.Gun)
             {
-                anim.SetBool(Define.isSkillHash, true);
-                anim.SetInteger(Define.ComboCountHash, comboCount);
+                anim.SetTrigger(Define.useSkillHash);
+                anim.SetInteger(Define.comboCountHash, comboCount);
             }
         }
     }
@@ -155,17 +157,14 @@ public class PlayerController : MonoBehaviour
             comboCount = 0;
         }
     }
-    public void SkillHashFalse()
-    {
-        anim.SetBool(Define.isSkillHash, false);
-        comboCount = 0;
-    }
+    
         
-    public void AttackAnimFalse()
+    IEnumerator ComboCountZero()
     {
-        isAttacking = false;
-        anim.SetBool(Define.isAttackHash, false);
+         yield return new WaitForSeconds(0.4f);
+        anim.SetInteger(Define.comboCountHash, 0);
     }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.collider.CompareTag("Ground"))

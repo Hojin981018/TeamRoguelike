@@ -121,6 +121,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -247,7 +260,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      NeonSigns_TitlePizza_On_0: -743718707952550315
+      NeonSigns_TitlePizza_On_1: 6797456827222455070
+      NeonSigns_TitlePizza_On_2: 1041877906648285730
+      NeonSigns_TitlePizza_On_3: 7061944699359545217
+      NeonSigns_TitlePizza_On_4: 6303164438480872261
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
