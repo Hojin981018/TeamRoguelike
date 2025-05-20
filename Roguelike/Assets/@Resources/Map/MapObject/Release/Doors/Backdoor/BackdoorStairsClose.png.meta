@@ -127,6 +127,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -297,7 +310,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BackdoorStairsClose_0: -6662848520894792101
+      BackdoorStairsClose_1: -977764449747643544
+      BackdoorStairsClose_2: -7644265961593786666
+      BackdoorStairsClose_3: 389291960298966747
+      BackdoorStairsClose_4: -5395869728416175355
+      BackdoorStairsClose_5: 5380602632615198419
+      BackdoorStairsClose_6: -7188587752402986515
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

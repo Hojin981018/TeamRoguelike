@@ -136,6 +136,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -372,7 +385,17 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Streetlights_0: 5267323753666503373
+      Streetlights_1: -2750858478769611114
+      Streetlights_2: -4131341367130872209
+      Streetlights_3: 6056363526498885468
+      Streetlights_4: 3808367954309469569
+      Streetlights_5: 4085629658424233975
+      Streetlights_6: 2479140746472452045
+      Streetlights_7: 8054117314059425128
+      Streetlights_8: 5775077338297434149
+      Streetlights_9: 536808824293201920
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
