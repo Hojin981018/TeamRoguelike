@@ -18,12 +18,17 @@ public class PlayerController : MonoBehaviour
     Rigidbody2D rb;
     Animator anim;
     public Transform JumpEffectPoint;
-    public Transform FirePoint;
+    public Transform FireEffectPoint;
+    public Transform DashEffectPoint;
     public GameObject FireEffect;
     public GameObject JumpEFfect;
+    public GameObject DashEffect;
+
     WeaponType weaponType;
     private float h;
     public float comboCountKeepTime = 0;
+    public float riseHeight = 0.8f;
+    public float fallGravityScale = 11f;
     public int comboCount = 0;
     public bool isJumping = false;
     public bool isAttacking = false;
@@ -53,6 +58,7 @@ public class PlayerController : MonoBehaviour
             {
                 weaponType = WeaponType.Hand;
             }
+            comboCount = 0;
         }
         if (Input.GetKeyDown(KeyCode.X))
         {
@@ -61,8 +67,10 @@ public class PlayerController : MonoBehaviour
             {
                 weaponType = WeaponType.Gun;
             }
+            comboCount = 0;
         }
         wType = (int)weaponType;
+        
     }
     void GetWeaponState()
     {
@@ -125,6 +133,33 @@ public class PlayerController : MonoBehaviour
             anim.SetBool(Define.isRunHash, false);
         }
     }
+    void Dash()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            anim.SetTrigger(Define.DashHash);
+            rb.gravityScale = 1;
+            if (tr.localScale.x == 1)
+            {
+                DashEffect.transform.localScale = new Vector3(1,0,0);
+                
+            }
+            else if (tr.localScale.x == -1)
+            {
+                DashEffect.transform.localScale = new Vector3(-1, 0, 0);
+               
+            }
+            Instantiate(DashEffect, DashEffectPoint);
+        }
+    }
+    public void DashPositionChange()
+    {
+        if (tr.localScale.x == 1)
+        { tr.position += new Vector3(1, 0, 0) * 0.3f; }
+
+        else if (tr.localScale.x == -1)
+        { tr.position += new Vector3(-1, 0, 0) * 0.3f; }
+    }
     void Attack()
     {
         if (Input.GetKeyDown(KeyCode.LeftControl))
@@ -134,7 +169,7 @@ public class PlayerController : MonoBehaviour
             anim.SetTrigger("Attack");
             if (weaponType == WeaponType.Gun)
             {
-                GameObject fireEffect = Instantiate(FireEffect, FirePoint);
+                GameObject fireEffect = Instantiate(FireEffect, FireEffectPoint);
             }
         }
     }
@@ -149,7 +184,45 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
-    public void PlusComboCount() // Animation Event
+    /// <summary>
+    /// 공중 공격 애니메이션 이벤트
+    /// </summary>
+    public void OnAirComboStart()
+    {
+        rb.gravityScale = 0;
+        rb.linearVelocity = Vector3.zero;
+        tr.position += Vector3.up * riseHeight;
+    }
+    public void OnAirComboHold()
+    {
+        rb.gravityScale = 0;
+        rb.linearVelocity = Vector3.zero;
+    }
+    public void OnAirComboFall()
+    {
+        rb.gravityScale = fallGravityScale;
+    }
+    public void OnAirComboFinish()
+    {
+        rb.gravityScale = 1;
+        
+    }
+    public void Combo3PositionChange()
+    {
+        if (tr.localScale.x == 1)
+        { tr.position += new Vector3(1, 0, 0) * 4; }
+
+        else if (tr.localScale.x == -1)
+        { tr.position += new Vector3(-1, 0, 0) * 4; }
+    }
+    
+    public void OnHandCombo3Fall()
+    {
+        rb.linearVelocity = Vector3.zero;
+        Vector3 fallForce = new Vector3(tr.localScale.x, -1, 0);
+        rb.AddForce(fallForce * 10, ForceMode2D.Impulse);
+    }
+    public void PlusComboCount() // 콤보 카운트 증가 Animation Event
     {
         comboCount++;
         if (comboCount > 2)
@@ -158,11 +231,21 @@ public class PlayerController : MonoBehaviour
         }
     }
     
-        
+    public void ComboCountReset() // 콤보 카운트 리셋 AnimationEvent
+    {
+        if (comboResetCoroutine != null)
+        {
+            StopCoroutine(comboResetCoroutine);
+        }
+
+        comboResetCoroutine = StartCoroutine(ComboCountZero());
+    }
     IEnumerator ComboCountZero()
     {
-         yield return new WaitForSeconds(0.4f);
-        anim.SetInteger(Define.comboCountHash, 0);
+         yield return new WaitForSeconds(0.5f);
+         comboCount = 0;
+         anim.SetInteger(Define.comboCountHash, 0);
+         comboResetCoroutine = null;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -176,6 +259,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         Move();
+        Dash();
         Attack();
         UseSkill();
         SetWeaponState();
