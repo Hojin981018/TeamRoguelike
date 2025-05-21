@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      StepSlotThinAFill_0: 3791328208556488426
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

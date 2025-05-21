@@ -297,7 +297,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      TitleBannerDecoratorB_0: -1633057186835863294
+      TitleBannerDecoratorB_1: 1307483524615626425
+      TitleBannerDecoratorB_2: 1611499924613675323
+      TitleBannerDecoratorB_3: -4149413562217700584
+      TitleBannerDecoratorB_4: 5753074228509077309
+      TitleBannerDecoratorB_5: 5377636705781358774
+      TitleBannerDecoratorB_6: 5296271875105557714
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

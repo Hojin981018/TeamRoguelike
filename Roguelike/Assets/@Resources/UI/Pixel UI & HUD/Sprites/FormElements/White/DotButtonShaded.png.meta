@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      DotButtonShaded_0: -7777965668574273033
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

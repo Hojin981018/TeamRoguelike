@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ButtonStoneCircle_Highlighted_0: 5019459236717189174
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

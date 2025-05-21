@@ -322,7 +322,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Angled_Select_0: 1673746033016458079
+      Angled_Select_1: 4049430537850651288
+      Angled_Select_2: -3111002379090878423
+      Angled_Select_3: -2485480630492109373
+      Angled_Select_4: -6567868360621338128
+      Angled_Select_5: -5832354725227291463
+      Angled_Select_6: 5274161960606781039
+      Angled_Select_7: -4992829092494075766
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

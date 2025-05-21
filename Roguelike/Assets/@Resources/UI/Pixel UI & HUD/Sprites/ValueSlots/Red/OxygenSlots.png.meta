@@ -1022,7 +1022,43 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      OxygenSlots_0: 5335382579099936189
+      OxygenSlots_1: -369696967635760495
+      OxygenSlots_10: -1608632643979042412
+      OxygenSlots_11: -5562233144886534725
+      OxygenSlots_12: 3412486447070782405
+      OxygenSlots_13: -574500944422868208
+      OxygenSlots_14: -1258231303758430166
+      OxygenSlots_15: -2614804170404090121
+      OxygenSlots_16: 8437794693933443287
+      OxygenSlots_17: -770143990336739813
+      OxygenSlots_18: -8982356024441709231
+      OxygenSlots_19: 385514517808299981
+      OxygenSlots_2: -7649931743732571964
+      OxygenSlots_20: 1219445320788553212
+      OxygenSlots_21: 8957163819600501180
+      OxygenSlots_22: -173080604806751625
+      OxygenSlots_23: -2253621785215420344
+      OxygenSlots_24: -473257674140485095
+      OxygenSlots_25: 3065873691291649755
+      OxygenSlots_26: 7490259005488425158
+      OxygenSlots_27: 3969009579281157851
+      OxygenSlots_28: -507971954246981622
+      OxygenSlots_29: -6625233994912667214
+      OxygenSlots_3: 4171711236563493
+      OxygenSlots_30: -7592359584150038317
+      OxygenSlots_31: 3387545629436909621
+      OxygenSlots_32: 2446486840647913428
+      OxygenSlots_33: 6047051270869427299
+      OxygenSlots_34: 1717283863310078446
+      OxygenSlots_35: 3031492266919446615
+      OxygenSlots_4: -4134466179253182963
+      OxygenSlots_5: -2281775057323431540
+      OxygenSlots_6: 6161488724054845395
+      OxygenSlots_7: -6256830434530833275
+      OxygenSlots_8: 2588975509888714693
+      OxygenSlots_9: 5121479628692885830
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

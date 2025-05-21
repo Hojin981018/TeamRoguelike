@@ -247,7 +247,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ToggleUnderlinedAnimated_0: 8205749699370832268
+      ToggleUnderlinedAnimated_1: 6966533430778450179
+      ToggleUnderlinedAnimated_2: 7245561792769120826
+      ToggleUnderlinedAnimated_3: 3208651248073635481
+      ToggleUnderlinedAnimated_4: -2783434359683620701
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

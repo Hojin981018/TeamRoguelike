@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ButtonStoneCircle_Press_0: -8182435899326425293
+      ButtonStoneCircle_Press_1: 704930815049939660
+      ButtonStoneCircle_Press_2: 4612248454319928927
+      ButtonStoneCircle_Press_3: 8947060239520584476
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      FlaskFill6_0: -6868083350075757308
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

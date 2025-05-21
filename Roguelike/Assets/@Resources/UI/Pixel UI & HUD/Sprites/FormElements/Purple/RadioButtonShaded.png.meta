@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      RadioButtonShaded_0: -8659972748729217936
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

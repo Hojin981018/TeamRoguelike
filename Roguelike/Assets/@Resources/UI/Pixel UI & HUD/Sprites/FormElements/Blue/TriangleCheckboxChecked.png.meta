@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      TriangleCheckboxChecked_0: 755782147513397419
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

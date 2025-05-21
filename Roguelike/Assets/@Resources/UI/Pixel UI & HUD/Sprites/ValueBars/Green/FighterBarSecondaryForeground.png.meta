@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      FighterBarSecondaryForeground_0: 6450264230329394834
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      DialogueEllipsis_0: 2505761720617638432
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

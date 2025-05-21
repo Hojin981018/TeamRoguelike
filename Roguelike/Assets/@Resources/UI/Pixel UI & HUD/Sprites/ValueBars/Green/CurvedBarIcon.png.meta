@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CurvedBarIcon_0: -3752694627502441750
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

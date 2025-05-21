@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PowerBarVerticalFollowSlot_0: -8335987650034028308
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
