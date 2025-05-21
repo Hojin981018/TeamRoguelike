@@ -726,6 +726,10 @@ AnimatorStateMachine:
   - {fileID: 2366516023207486337}
   - {fileID: 9075271839314279779}
   m_StateMachineTransitions:
+  - first: {fileID: -8623794927704892597}
+    second:
+    - {fileID: -6620966937036493479}
+    - {fileID: 2057896758563442249}
   - first: {fileID: -3851720415808478385}
     second:
     - {fileID: -6671376639094627546}
@@ -733,10 +737,6 @@ AnimatorStateMachine:
     second:
     - {fileID: -99398863055945782}
     - {fileID: -6605697281352912456}
-  - first: {fileID: -8623794927704892597}
-    second:
-    - {fileID: -6620966937036493479}
-    - {fileID: 2057896758563442249}
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: 50, y: -70, z: 0}
   m_EntryPosition: {x: 340, y: 140, z: 0}
@@ -2132,7 +2132,7 @@ AnimatorStateMachine:
     m_Position: {x: -250, y: -80, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 2887042828996453351}
-    m_Position: {x: 250, y: 340, z: 0}
+    m_Position: {x: 290, y: 210, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 8983273203606603026}
     m_Position: {x: 290, y: -100, z: 0}
@@ -2144,13 +2144,13 @@ AnimatorStateMachine:
     m_Position: {x: 650, y: -100, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1592388491021326494}
-    m_Position: {x: -520, y: -410, z: 0}
+    m_Position: {x: -420, y: -330, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1097148275659882687}
-    m_Position: {x: -280, y: -510, z: 0}
+    m_Position: {x: -250, y: -470, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 8698044656288165780}
-    m_Position: {x: -40, y: -410, z: 0}
+    m_Position: {x: -70, y: -330, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -2159,7 +2159,7 @@ AnimatorStateMachine:
   m_AnyStatePosition: {x: -350, y: 100, z: 0}
   m_EntryPosition: {x: -540, y: -80, z: 0}
   m_ExitPosition: {x: 790, y: 270, z: 0}
-  m_ParentStateMachinePosition: {x: 310, y: -440, z: 0}
+  m_ParentStateMachinePosition: {x: 290, y: -430, z: 0}
   m_DefaultState: {fileID: 4174573872351970513}
 --- !u!1101 &4820260401773945199
 AnimatorStateTransition:
