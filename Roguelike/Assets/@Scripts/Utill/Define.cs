@@ -6,7 +6,7 @@ public class Define
     public readonly static int isWalkHash = Animator.StringToHash("isWalk");
     public readonly static int isRunHash = Animator.StringToHash("isRun");
     public readonly static int isAttackHash = Animator.StringToHash("isAttack");
-    public readonly static int isSkillHash = Animator.StringToHash("isSkill");
-    public readonly static int ComboCountHash = Animator.StringToHash("ComboStack");
+    public readonly static int useSkillHash = Animator.StringToHash("Skill");
+    public readonly static int comboCountHash = Animator.StringToHash("ComboStep");
     public readonly static int HurtHash = Animator.StringToHash("Hurt");
 }
