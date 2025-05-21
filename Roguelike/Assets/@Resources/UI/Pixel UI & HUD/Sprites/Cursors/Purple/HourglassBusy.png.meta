@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      HourglassBusy_0: -8729486941946801927
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

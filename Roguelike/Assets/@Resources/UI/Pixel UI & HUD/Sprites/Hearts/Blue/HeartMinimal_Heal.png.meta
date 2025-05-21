@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      HeartMinimal_Heal_0: 2582050241737620241
+      HeartMinimal_Heal_1: -8158756860667641417
+      HeartMinimal_Heal_2: -7559640065600380684
+      HeartMinimal_Heal_3: -5403289941230154259
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

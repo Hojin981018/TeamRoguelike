@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SliderDiamondHandleHovered_0: -8569274793143122574
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

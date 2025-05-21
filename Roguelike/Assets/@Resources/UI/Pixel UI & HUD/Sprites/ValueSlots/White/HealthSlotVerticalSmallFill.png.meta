@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      HealthSlotVerticalSmallFill_0: 7948764769099831183
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

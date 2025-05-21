@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ShurikenSmallFull_0: 6274231769225929038
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

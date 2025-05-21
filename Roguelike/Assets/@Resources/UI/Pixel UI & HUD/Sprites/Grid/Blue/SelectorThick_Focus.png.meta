@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SelectorThick_Focus_0: 3179847471686202496
+      SelectorThick_Focus_1: -3549748562199544675
+      SelectorThick_Focus_2: 2618016507357625568
+      SelectorThick_Focus_3: -2650128631577701710
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

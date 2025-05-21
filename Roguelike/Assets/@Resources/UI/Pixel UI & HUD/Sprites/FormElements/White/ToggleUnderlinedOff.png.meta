@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ToggleUnderlinedOff_0: -6632654522006341484
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

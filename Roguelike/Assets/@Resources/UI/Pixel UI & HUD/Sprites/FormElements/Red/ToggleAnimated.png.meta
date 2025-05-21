@@ -247,7 +247,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ToggleAnimated_0: -2023374668062278869
+      ToggleAnimated_1: -8872674735996589129
+      ToggleAnimated_2: 4019869315786060161
+      ToggleAnimated_3: 277701661945759965
+      ToggleAnimated_4: 754875387353780704
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      RoundBarFollowFill_0: -7353433229052744922
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

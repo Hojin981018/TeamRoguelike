@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ScrollbarHorizontalIndented_0: 443076955677800298
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

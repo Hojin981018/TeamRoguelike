@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CheckButtonShaded_0: 3792064222712079556
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

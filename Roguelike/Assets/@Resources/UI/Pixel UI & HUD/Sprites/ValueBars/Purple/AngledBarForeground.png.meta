@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      AngledBarForeground_0: -1180893520721061115
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

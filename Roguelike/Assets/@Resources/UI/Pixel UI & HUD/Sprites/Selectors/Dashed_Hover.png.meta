@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Dashed_Hover_0: 3222182058222975372
+      Dashed_Hover_1: 8437011337971127521
+      Dashed_Hover_2: 4318514308901019913
+      Dashed_Hover_3: 443904143871682672
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -272,7 +272,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      HeartMinimal_Damage_0: -893637981969822244
+      HeartMinimal_Damage_1: 5018738426478548178
+      HeartMinimal_Damage_2: 379953364517380047
+      HeartMinimal_Damage_3: -1384553928184286909
+      HeartMinimal_Damage_4: 1363397218674505160
+      HeartMinimal_Damage_5: 7163743475986458100
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

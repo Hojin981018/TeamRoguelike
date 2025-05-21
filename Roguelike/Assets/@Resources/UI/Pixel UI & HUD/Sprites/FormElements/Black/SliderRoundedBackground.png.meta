@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SliderRoundedBackground_0: -5531878448569778297
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
