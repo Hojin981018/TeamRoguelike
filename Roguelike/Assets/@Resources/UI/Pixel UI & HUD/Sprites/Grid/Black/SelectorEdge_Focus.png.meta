@@ -154,6 +154,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -522,7 +535,23 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SelectorEdge_Focus_0: 8214242982474016089
+      SelectorEdge_Focus_1: 4445422975309889763
+      SelectorEdge_Focus_10: 1615624677463279230
+      SelectorEdge_Focus_11: -8659366768609133660
+      SelectorEdge_Focus_12: 5038901311462968898
+      SelectorEdge_Focus_13: -4960432653225505547
+      SelectorEdge_Focus_14: -9208599013434439685
+      SelectorEdge_Focus_15: -6436538259949425498
+      SelectorEdge_Focus_2: -3107332996143240546
+      SelectorEdge_Focus_3: 2744025729446073611
+      SelectorEdge_Focus_4: -5749226526705000566
+      SelectorEdge_Focus_5: -2032977833601174452
+      SelectorEdge_Focus_6: 318144227650996948
+      SelectorEdge_Focus_7: 4590681469514655273
+      SelectorEdge_Focus_8: -1727798877515519141
+      SelectorEdge_Focus_9: 5999205469422064579
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

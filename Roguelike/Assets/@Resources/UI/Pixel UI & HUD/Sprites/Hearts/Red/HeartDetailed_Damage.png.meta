@@ -124,6 +124,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -272,7 +285,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      HeartDetailed_Damage_0: 7692913562381316115
+      HeartDetailed_Damage_1: 2043805329882992821
+      HeartDetailed_Damage_2: 1493847167308257168
+      HeartDetailed_Damage_3: 2374622215578443354
+      HeartDetailed_Damage_4: -768003788420176027
+      HeartDetailed_Damage_5: 3445617812287239758
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
