@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      vfx_4_moonshape_0: 8284791815801433540
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      vfx_elecslash_1_0: 220886533964450441
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

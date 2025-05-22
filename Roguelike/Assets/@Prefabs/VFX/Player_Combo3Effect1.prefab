@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4020726632692513146
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6025576835220370376}
+  m_Layer: 0
+  m_Name: EffectPos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6025576835220370376
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4020726632692513146}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.34, y: -0.25, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1889067367030374924}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7742458151726712466
 GameObject:
   m_ObjectHideFlags: 0
@@ -12,6 +43,7 @@ GameObject:
   - component: {fileID: 489104957590698755}
   - component: {fileID: 3999909381227191357}
   - component: {fileID: 1344869653914918683}
+  - component: {fileID: 7169746821098514425}
   m_Layer: 0
   m_Name: Player_Combo3Effect1
   m_TagString: Untagged
@@ -31,7 +63,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 6025576835220370376}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &489104957590698755
@@ -123,3 +156,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67014e5823dceff40a682a0c7013e8ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &7169746821098514425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7742458151726712466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba221c27db93f3347b63dbac20f91b32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DownSlash: {fileID: 0}
+  UpSlash: {fileID: 1254992107066031702, guid: 03fbcabb4534f7c4bb7b716b124b7e59, type: 3}
+  HorizonSlash: {fileID: 0}
+  TeleportEffect: {fileID: 0}
+  DownSlashPos: {fileID: 0}
+  UpSlashPos: {fileID: 6025576835220370376}
+  HorizonSlashPos: {fileID: 0}
+  TeleportEffectPos: {fileID: 0}

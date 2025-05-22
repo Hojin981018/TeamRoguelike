@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      vfx_5_circle_turn_0: -3875783206024132178
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
