@@ -855,6 +855,7 @@ GameObject:
   m_Component:
   - component: {fileID: 398186464}
   - component: {fileID: 398186463}
+  - component: {fileID: 398186465}
   m_Layer: 0
   m_Name: Moon
   m_TagString: Untagged
@@ -932,6 +933,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 514270554}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &398186465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 398186462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f69d5783ff499646a70271ddd3cbe34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0.2
 --- !u!1 &514270553
 GameObject:
   m_ObjectHideFlags: 0
@@ -2689,6 +2703,13 @@ MonoBehaviour:
   - {fileID: 551755297551216830, guid: d5c694ea8577808409d13ce8c73798e1, type: 3}
   - {fileID: 1385325647926079517, guid: db40d24ae35f9174f9bef9c6ee297e08, type: 3}
   tr: {fileID: 0}
+  s1Pos: 1.2
+  s2Pos: 2.4
+  s3Pos: 1.8
+  s4Pos: 2.4
+  s5Pos: 2
+  s6Pos: 2.2
+  s7Pos: 2
 --- !u!114 &1423384746
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2710,6 +2731,9 @@ MonoBehaviour:
   comboCountKeepTime: 0
   riseHeight: 1
   fallGravityScale: 4
+  lastInputTime: 0
+  startCoroutineTime: 0
+  resetDelay: 0.5
   comboCount: 0
   isJumping: 0
   isAttacking: 0
