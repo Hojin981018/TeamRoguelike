@@ -403,15 +403,15 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.6904762
-    functionName: FinishAttack
+  - time: 1.0952381
+    functionName: PlusComboCount
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 1.0952381
-    functionName: PlusComboCount
+  - time: 1.1666666
+    functionName: FinishAttack
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
