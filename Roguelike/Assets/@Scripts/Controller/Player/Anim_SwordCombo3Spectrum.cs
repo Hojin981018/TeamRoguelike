@@ -123,7 +123,8 @@ public class Anim_SwordCombo3Spectrum : MonoBehaviour
     }
     public void FinishAttack()
     {
-        Instantiate(Combo3Spectrum[7], finishAtkTr);
+        var effect = Instantiate(Combo3Spectrum[7]);
+        effect.transform.position = finishAtkTr.position;
     }
     public void TransformLerp()
     {
