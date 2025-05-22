@@ -1,31 +1,46 @@
 fileFormatVersion: 2
-guid: a92bd0511897f39479e31d869ebdb9e3
+guid: fa8b72a944ea2684dbb57f690fba8643
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2684102947291226346
-    second: Main_0
+      213: -1551534553639381808
+    second: WindowSlash_0
   - first:
-      213: 2211714010249429090
-    second: Main_1
+      213: 434683105439701664
+    second: WindowSlash_1
   - first:
-      213: 1057461262287701629
-    second: Main_2
+      213: 8779500981393586797
+    second: WindowSlash_2
   - first:
-      213: -1149673380122903276
-    second: Main_3
+      213: 685488186948344816
+    second: WindowSlash_3
   - first:
-      213: 8350362020719645861
-    second: Main_4
+      213: 5169066685520640562
+    second: WindowSlash_4
   - first:
-      213: 8117856743858075646
-    second: Main_5
+      213: 2806868332249532006
+    second: WindowSlash_5
   - first:
-      213: 8801126876103537992
-    second: Main_6
+      213: 2081045388928306729
+    second: WindowSlash_6
   - first:
-      213: -1877753079322562185
-    second: Main_7
+      213: 2951616750799579595
+    second: WindowSlash_7
+  - first:
+      213: 2607572762495348745
+    second: WindowSlash_8
+  - first:
+      213: 7755301187143292421
+    second: WindowSlash_9
+  - first:
+      213: 5648056050257679291
+    second: WindowSlash_10
+  - first:
+      213: 8029661684906757905
+    second: WindowSlash_11
+  - first:
+      213: -3370978433789770422
+    second: WindowSlash_12
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -58,7 +73,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -72,7 +87,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 45
+  spritePixelsToUnits: 120
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -118,19 +133,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -147,177 +149,133 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Main_0
+      name: WindowSlash_0
       rect:
         serializedVersion: 2
-        x: 15
-        y: 111
-        width: 18
-        height: 50
+        x: 0
+        y: 611
+        width: 512
+        height: 305
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 61f9026279620cad0800000000000000
-      internalID: -2684102947291226346
+      spriteID: a4f9a493f1898ed42896cb8a75b4da52
+      internalID: -1931621230
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Main_1
+      name: WindowSlash_1
       rect:
         serializedVersion: 2
-        x: 47
-        y: 111
-        width: 50
-        height: 50
+        x: 512
+        y: 611
+        width: 512
+        height: 305
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2600ca59c2691be10800000000000000
-      internalID: 2211714010249429090
+      spriteID: 790369d755a34ff47a14a04bc31c558b
+      internalID: 609184195
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Main_2
+      name: WindowSlash_2
       rect:
         serializedVersion: 2
-        x: 111
-        y: 95
-        width: 66
-        height: 66
+        x: 0
+        y: 306
+        width: 512
+        height: 305
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d7605665a6bdcae00800000000000000
-      internalID: 1057461262287701629
+      spriteID: 846aa6b22ced6ed4c9a84fafab1ac5ed
+      internalID: -1955350940
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Main_3
+      name: WindowSlash_3
       rect:
         serializedVersion: 2
-        x: 191
-        y: 95
-        width: 66
-        height: 66
+        x: 512
+        y: 306
+        width: 512
+        height: 305
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 41d3d0ae62a8b00f0800000000000000
-      internalID: -1149673380122903276
+      spriteID: aff6c56131bad0f4abf937e5e9ba6992
+      internalID: 253756876
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Main_4
+      name: WindowSlash_4
       rect:
         serializedVersion: 2
-        x: 15
-        y: 79
-        width: 18
-        height: 18
+        x: 0
+        y: 1
+        width: 512
+        height: 305
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5a458e6040272e370800000000000000
-      internalID: 8350362020719645861
+      spriteID: c87fa2b34bf3cd94599ba654f401cd4e
+      internalID: 1528699640
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Main_5
+      name: WindowSlash_5
       rect:
         serializedVersion: 2
-        x: 47
-        y: 79
-        width: 50
-        height: 18
+        x: 512
+        y: 1
+        width: 512
+        height: 305
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ef77b23c2bb68a070800000000000000
-      internalID: 8117856743858075646
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Main_6
-      rect:
-        serializedVersion: 2
-        x: 15
-        y: 15
-        width: 50
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8457b417342e32a70800000000000000
-      internalID: 8801126876103537992
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Main_7
-      rect:
-        serializedVersion: 2
-        x: 79
-        y: 15
-        width: 50
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 771351be581e0f5e0800000000000000
-      internalID: -1877753079322562185
+      spriteID: b35b71f32d9fe1d42a9ceea31d668f64
+      internalID: 811563245
       vertices: []
       indices: 
       edges: []
@@ -326,7 +284,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b45d70859c38bed4795542aae8335f51
     internalID: 0
     vertices: []
     indices: 
@@ -334,16 +292,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":2.0,"y":3.0},"gridSpriteSize":{"x":512.0,"y":305.0},"gridSpriteOffset":{"x":0.0,"y":108.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Main_0: -2684102947291226346
-      Main_1: 2211714010249429090
-      Main_2: 1057461262287701629
-      Main_3: -1149673380122903276
-      Main_4: 8350362020719645861
-      Main_5: 8117856743858075646
-      Main_6: 8801126876103537992
-      Main_7: -1877753079322562185
+      WindowSlash_0: -1931621230
+      WindowSlash_1: 609184195
+      WindowSlash_2: -1955350940
+      WindowSlash_3: 253756876
+      WindowSlash_4: 1528699640
+      WindowSlash_5: 811563245
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

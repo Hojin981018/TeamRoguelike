@@ -8,7 +8,8 @@ public class Anim_SwordCombo3Spectrum : MonoBehaviour
     /// AnimationEvent Script
     /// </summary>
     public GameObject[] Combo3Spectrum;
-    public Transform tr;
+    private Transform tr;
+    public Transform finishAtkTr;
     
     public float s1PosX = 1.2f;
     public float s2PosX = 2.4f;
@@ -119,6 +120,10 @@ public class Anim_SwordCombo3Spectrum : MonoBehaviour
         {
             Instantiate(Combo3Spectrum[6], leftOffset, Quaternion.identity);
         }
+    }
+    public void FinishAttack()
+    {
+        Instantiate(Combo3Spectrum[7], finishAtkTr);
     }
     public void TransformLerp()
     {
