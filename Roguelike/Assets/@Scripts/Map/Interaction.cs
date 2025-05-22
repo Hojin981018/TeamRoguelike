@@ -9,19 +9,12 @@ public class Interaction : MonoBehaviour
         nearObject = null;            
     }
 
-    void Interaction()
-    {
-        if(Input.GetKeyDown(KeyCode.F))
-        {
-
-        }
-    }
-
     private void OnTriggerStay2D(Collider2D collision)
     {
         if(collision.CompareTag("Player"))
         {
             nearObject = collision.gameObject;
+
         }
     }
 
@@ -30,6 +23,7 @@ public class Interaction : MonoBehaviour
         if(collision.CompareTag("Player"))
         {
             nearObject = null;
+
         }
     }
 }
