@@ -31,7 +31,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.055555556
+        time: 0.04761905
         value: 0.2
         inSlope: 0
         outSlope: 0
@@ -40,16 +40,16 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.11111111
+        time: 0.0952381
         value: 0.4
-        inSlope: 7.2
-        outSlope: 7.2
+        inSlope: 8.4
+        outSlope: 8.4
         tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.16666667
+        time: 0.14285715
         value: 1
         inSlope: 0
         outSlope: 0
@@ -70,34 +70,34 @@ AnimationClip:
     curve:
     - time: 0
       value: {fileID: -1089663553216394033, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
-    - time: 0.055555556
+    - time: 0.04761905
       value: {fileID: -1089663553216394033, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
-    - time: 0.11111111
+    - time: 0.0952381
       value: {fileID: -1089663553216394033, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
-    - time: 0.16666667
+    - time: 0.14285715
       value: {fileID: 9104800289670202647, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
-    - time: 0.22222222
+    - time: 0.1904762
       value: {fileID: -8007516531696551367, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
-    - time: 0.2777778
+    - time: 0.23809524
       value: {fileID: 8451282012373315910, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
-    - time: 0.33333334
+    - time: 0.2857143
       value: {fileID: -3260706784292504620, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
-    - time: 0.3888889
+    - time: 0.33333334
       value: {fileID: 3611675222436734454, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
-    - time: 0.44444445
+    - time: 0.3809524
       value: {fileID: -5600925292395379019, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
-    - time: 0.5
+    - time: 0.42857143
       value: {fileID: 1366386414490757499, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
-    - time: 0.5555556
+    - time: 0.47619048
       value: {fileID: -3738670030499815412, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
-    - time: 0.6111111
+    - time: 0.52380955
       value: {fileID: -6154602362016382534, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
     script: {fileID: 0}
     flags: 2
-  m_SampleRate: 18
+  m_SampleRate: 21
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -140,7 +140,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.6666667
+    m_StopTime: 0.5714286
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -170,7 +170,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.055555556
+        time: 0.04761905
         value: 0.2
         inSlope: 0
         outSlope: 0
@@ -179,16 +179,16 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.11111111
+        time: 0.0952381
         value: 0.4
-        inSlope: 7.2
-        outSlope: 7.2
+        inSlope: 8.4
+        outSlope: 8.4
         tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.16666667
+        time: 0.14285715
         value: 1
         inSlope: 0
         outSlope: 0
@@ -208,35 +208,35 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
-  - time: 0.055555556
+  - time: 0.04761905
     functionName: OnAirComboStart
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.16666667
+  - time: 0.14285715
     functionName: OnHandCombo3Fall
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.2777778
+  - time: 0.2857143
     functionName: Effect
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.3888889
+  - time: 0.33333334
     functionName: PlusComboCount
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.44444445
+  - time: 0.3809524
     functionName: OnAirComboFinish
     data: 
     objectReferenceParameter: {fileID: 0}

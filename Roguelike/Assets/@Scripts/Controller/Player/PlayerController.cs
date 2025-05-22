@@ -29,6 +29,9 @@ public class PlayerController : MonoBehaviour
     public float comboCountKeepTime = 0;
     public float riseHeight = 0.8f;
     public float fallGravityScale = 11f;
+    public float lastInputTime = 0;
+    public float startCoroutineTime = 0;
+    public float resetDelay = 0.5f;
     public int comboCount = 0;
     public bool isJumping = false;
     public bool isAttacking = false;
@@ -177,8 +180,14 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.C))
         {
+            lastInputTime = Time.time;
             if (weaponType != WeaponType.Gun)
             {
+                if (comboResetCoroutine != null)
+                {
+                    StopCoroutine(comboResetCoroutine);
+                    comboResetCoroutine = null;
+                }
                 anim.SetTrigger(Define.useSkillHash);
                 anim.SetInteger(Define.comboCountHash, comboCount);
             }
@@ -230,7 +239,22 @@ public class PlayerController : MonoBehaviour
             comboCount = 0;
         }
     }
-    
+    private void ResetComboCount() // 혹시 남아있는 comboCount 강제초기화
+    {
+        AnimatorStateInfo state = anim.GetCurrentAnimatorStateInfo(0);
+
+        if (state.IsName("Player_Hand_Idle") && comboCount != 0)
+        {
+            comboCount = 0;
+            anim.SetInteger(Define.comboCountHash, 0);
+        }
+        else if (state.IsName("Player_Sword_Idle") && comboCount != 0)
+        {           
+            comboCount = 0;
+            anim.SetInteger(Define.comboCountHash, 0);
+        }
+    }
+
     public void ComboCountReset() // 콤보 카운트 리셋 AnimationEvent
     {
         if (comboResetCoroutine != null)
@@ -242,10 +266,26 @@ public class PlayerController : MonoBehaviour
     }
     IEnumerator ComboCountZero()
     {
-         yield return new WaitForSeconds(0.5f);
-         comboCount = 0;
-         anim.SetInteger(Define.comboCountHash, 0);
-         comboResetCoroutine = null;
+        float timer = 0f;
+        float lastCheckedInputTime = lastInputTime;
+
+        while (timer < resetDelay)
+        {
+            timer += Time.deltaTime;
+
+            // 중간에 입력이 새로 들어왔으면 유지
+            if (lastInputTime > lastCheckedInputTime)
+            {
+                comboResetCoroutine = null;
+                yield break; // 콤보 유지
+            }
+
+            yield return null;
+        }
+
+        // 입력 없었으면 콤보 리셋
+        comboCount = 0;
+        comboResetCoroutine = null;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -262,6 +302,7 @@ public class PlayerController : MonoBehaviour
         Dash();
         Attack();
         UseSkill();
+        ResetComboCount();
         SetWeaponState();
         GetWeaponState();
     }

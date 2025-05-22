@@ -2567,6 +2567,13 @@ MonoBehaviour:
   - {fileID: 551755297551216830, guid: d5c694ea8577808409d13ce8c73798e1, type: 3}
   - {fileID: 1385325647926079517, guid: db40d24ae35f9174f9bef9c6ee297e08, type: 3}
   tr: {fileID: 0}
+  s1Pos: 1.2
+  s2Pos: 2.4
+  s3Pos: 1.8
+  s4Pos: 2.4
+  s5Pos: 2
+  s6Pos: 2.2
+  s7Pos: 2
 --- !u!114 &1423384746
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2588,6 +2595,9 @@ MonoBehaviour:
   comboCountKeepTime: 0
   riseHeight: 1
   fallGravityScale: 4
+  lastInputTime: 0
+  startCoroutineTime: 0
+  resetDelay: 0.5
   comboCount: 0
   isJumping: 0
   isAttacking: 0
