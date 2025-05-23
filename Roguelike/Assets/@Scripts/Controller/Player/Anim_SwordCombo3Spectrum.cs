@@ -123,8 +123,17 @@ public class Anim_SwordCombo3Spectrum : MonoBehaviour
     }
     public void FinishAttack()
     {
-        var effect = Instantiate(Combo3Spectrum[7]);
-        effect.transform.position = finishAtkTr.position;
+        var FinishAttack = Instantiate(Combo3Spectrum[7]);
+        if (tr.localScale.x == 1)
+        {
+            
+            FinishAttack.transform.localScale = new Vector3(2.5f, 2.5f, 0);
+        }
+        else if (tr.localScale.x == -1)
+        {
+            FinishAttack.transform.localScale = new Vector3(-2.5f, 2.5f, 0);
+        }
+        FinishAttack.transform.position = finishAtkTr.position;
     }
     public void TransformLerp()
     {
