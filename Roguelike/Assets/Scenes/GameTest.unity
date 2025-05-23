@@ -597,6 +597,7 @@ Transform:
   - {fileID: 1285379782}
   - {fileID: 655456126}
   - {fileID: 1605532127}
+  - {fileID: 1704613472}
   m_Father: {fileID: 1834297352}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &243664019
@@ -1453,7 +1454,7 @@ Transform:
   m_GameObject: {fileID: 1054536211}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1, y: 0, z: 0}
+  m_LocalPosition: {x: 1, y: -0.48, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3033,10 +3034,12 @@ MonoBehaviour:
   UppercutEffect: {fileID: 8627902336636687078, guid: 60e8c7675a3df4d41835667f0216b0ee, type: 3}
   KickEffect:
   - {fileID: 2895638416726737662, guid: 8b11d95f440a54e42971b325b0fe3f63, type: 3}
+  Combo3FinishAtkEffect: {fileID: 7494515726880642444, guid: 45417219302e093468f8da631a137810, type: 3}
   jabPoint: {fileID: 1054536212}
   hookPoint: {fileID: 1285379782}
   uppercutPoint: {fileID: 655456126}
   kick3Point: {fileID: 1605532127}
+  Combo3FinishAtkTr: {fileID: 1704613472}
 --- !u!1 &1466748334
 GameObject:
   m_ObjectHideFlags: 0
@@ -3755,6 +3758,37 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1295511646}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1704613471
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1704613472}
+  m_Layer: 0
+  m_Name: Combo3FinishPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1704613472
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1704613471}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.35, y: -0.85, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 40720960}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1708847768
 GameObject:
