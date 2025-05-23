@@ -132,39 +132,27 @@ AnimationClip:
       value: {fileID: -6936937660022477042, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
     - time: 1.8611112
       value: {fileID: 4886478570916001008, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
-    - time: 1.8888888
-      value: {fileID: -2597386595856688248, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
     - time: 1.9166666
-      value: {fileID: 434278453930279140, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
-    - time: 1.9444444
-      value: {fileID: 3180876364828348795, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
-    - time: 1.9722222
-      value: {fileID: -4205454913927715742, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
-    - time: 2
-      value: {fileID: 3409695234835405361, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
-    - time: 2.0277777
-      value: {fileID: -1755559428723767730, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
-    - time: 2.0833333
       value: {fileID: 601568156015302429, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
-    - time: 2.1111112
+    - time: 1.9444444
       value: {fileID: -308103793206942952, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
-    - time: 2.1388888
+    - time: 1.9722222
       value: {fileID: 1585787976072152351, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
-    - time: 2.4444444
+    - time: 2.3611112
       value: {fileID: 3140262912012232762, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
-    - time: 2.4722223
+    - time: 2.3888888
       value: {fileID: -7437612986031099622, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
-    - time: 2.5
+    - time: 2.4166667
       value: {fileID: -2086932168426810320, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
-    - time: 2.5277777
+    - time: 2.4444444
       value: {fileID: -1907251489534906840, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
-    - time: 3.1388888
+    - time: 3
       value: {fileID: 4530792571932644999, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
-    - time: 3.1666667
+    - time: 3.0277777
       value: {fileID: -6870174782190203128, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
-    - time: 3.1944444
+    - time: 3.0555556
       value: {fileID: 3434177988586674830, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
-    - time: 3.2222223
+    - time: 3.0833333
       value: {fileID: 670934202859937615, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
     attribute: m_Sprite
     path: 
@@ -244,12 +232,6 @@ AnimationClip:
     - {fileID: -1103415392551452794, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
     - {fileID: -6936937660022477042, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
     - {fileID: 4886478570916001008, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
-    - {fileID: -2597386595856688248, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
-    - {fileID: 434278453930279140, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
-    - {fileID: 3180876364828348795, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
-    - {fileID: -4205454913927715742, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
-    - {fileID: 3409695234835405361, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
-    - {fileID: -1755559428723767730, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
     - {fileID: 601568156015302429, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
     - {fileID: -308103793206942952, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
     - {fileID: 1585787976072152351, guid: 66e8c5fc4847da04c918947fee7a0bd6, type: 3}
@@ -266,7 +248,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 3.25
+    m_StopTime: 3.111111
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -384,14 +366,7 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 1.9444444
-    functionName: Uppercut
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
-  - time: 2.0833333
+  - time: 1.9166666
     functionName: Combo3TeleportEffect
     data: 
     objectReferenceParameter: {fileID: 0}
