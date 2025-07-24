@@ -228,28 +228,33 @@ public class PlayerController :DamageAbleBase,IDamageable
     }
     #endregion
     #region Weapon
+    private float swapCoolTime = 0;
     void SetWeaponState()
     {
-        if (Input.GetKeyDown(KeyCode.Q))
+        swapCoolTime -=Time.deltaTime;
+        if (Input.GetKeyDown(KeyCode.Q)&&weaponType != WeaponType.Hand && swapCoolTime <= 0)
         {
             SFXManager.Instance.PlaySFX(swapSFX[0]);
             Instantiate(SwapEffect[0],SwapEffectPoint);
             weaponType = WeaponType.Hand;
             comboCount = 0;
+            swapCoolTime = 0.5f;
         }
-        else if (Input.GetKeyDown(KeyCode.W))
+        else if (Input.GetKeyDown(KeyCode.W) && weaponType != WeaponType.Sword && swapCoolTime <= 0)
         {
             SFXManager.Instance.PlaySFX(swapSFX[1]);
             Instantiate(SwapEffect[1], SwapEffectPoint);
             weaponType = WeaponType.Sword;
             comboCount = 0;
+            swapCoolTime = 0.5f;
         }
-        else if (Input.GetKeyDown(KeyCode.E))
+        else if (Input.GetKeyDown(KeyCode.E) && weaponType != WeaponType.Gun&& swapCoolTime <=0)
         {
             SFXManager.Instance.PlaySFX(swapSFX[2]);
             Instantiate(SwapEffect[2], SwapEffectPoint);
             weaponType = WeaponType.Gun;
             comboCount = 0;
+            swapCoolTime = 0.5f;
         }
         wType = (int)weaponType;
         
@@ -645,7 +650,7 @@ public class PlayerController :DamageAbleBase,IDamageable
             }
             else if (collision.gameObject.layer == LayerMask.NameToLayer("UpStair"))
             {
-                if (collision.gameObject.transform.position.y <= transform.position.y+0.1f)
+                if (collision.gameObject.transform.position.y <= transform.position.y&& rb.linearVelocityY <=0)
                 {
                     onSecondFloor = true;
                     canJump = true;
@@ -663,7 +668,9 @@ public class PlayerController :DamageAbleBase,IDamageable
         }
         if (collision.collider.CompareTag("Ground"))
         {
-            anim.SetBool("onAir", false);
+            anim.SetBool("onAir", true);
+            canJump = false;
+            jumpCount++;
         }
     }
     
