@@ -22,7 +22,7 @@ public class ScopeController: MonoBehaviour
     WaitForSeconds wTime = new(0.1f);
     Color BaseScopeBGColor = new Color32(0, 0, 0, 244);
     Color FireScopeBGColor = new Color32(80, 78, 56, 255);
-    
+    private Vector3 shotOffset => new(0, 0.5f, 0);
     private void Start()
     {
         player = GetComponentInParent<PlayerController>();
@@ -73,15 +73,16 @@ public class ScopeController: MonoBehaviour
     
     public void Fire()
     {
-        if (Input.GetKeyDown(KeyCode.S) && player.magazineDrum > 0&&curTime <=0)
+        if (Input.GetKeyDown(KeyCode.S) && player.magazineDrum > 0&&curTime <=0&& player.snipeMode == true)
         {
             if (FireCoroutine != null)
             {
                 StopCoroutine(FireCoroutine);
             }
             float a = Random.Range(-0.3f, 0.3f);
-            Vector3 recoilDir = new Vector3(a, 1f, 0f).normalized;
+            Vector3 recoilDir = new Vector3(a, 1f, 0f);
             impulseSource.GenerateImpulse(recoilDir);
+            
             FireCoroutine = StartCoroutine(FireEffect());
             dHandle.PlayerCreateAttackBox(snipeData);
             player.magazineDrum--;
@@ -113,6 +114,7 @@ public class ScopeController: MonoBehaviour
         yield return new WaitForSeconds(0.1f);
         SnipeBG.GetComponent<SpriteRenderer>().color = BaseScopeBGColor;
         yield return new WaitForSeconds(0.03f);
+        transform.position += shotOffset;
         if (player.magazineDrum <= 0)
         {
             player.ExitSnipeMode();
