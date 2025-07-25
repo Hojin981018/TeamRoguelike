@@ -286,10 +286,14 @@ public class PlayerController :DamageAbleBase,IDamageable
         {
             h = Input.GetAxisRaw(Define.Horizontal);
             Vector2 moveDir = new Vector2(h, 0);
-            anim.SetBool(Define.isWalkHash, true);
+            
+                anim.SetBool(Define.isWalkHash, true);
+            
             if (Input.GetKey(KeyCode.LeftShift))
             {
-                anim.SetBool(Define.isRunHash, true);
+                
+                    anim.SetBool(Define.isRunHash, true);
+                
                 tr.Translate(Time.deltaTime * PublicStat.speed * 2 * moveDir);
             }
             else
@@ -509,10 +513,9 @@ public class PlayerController :DamageAbleBase,IDamageable
             jumpCount++;
         }
     }
-
     public void OnAir()
     {
-        if (canJump == false)
+        if (canJump == false )
         {
             anim.SetBool("onAir", true);
         }
@@ -641,7 +644,6 @@ public class PlayerController :DamageAbleBase,IDamageable
     {
         if (collision.collider.CompareTag("Ground"))
         {
-
             if (collision.gameObject.layer != LayerMask.NameToLayer("UpStair"))
             {
                 canJump = true;
@@ -665,12 +667,6 @@ public class PlayerController :DamageAbleBase,IDamageable
         if (collision.gameObject.layer == LayerMask.NameToLayer("UpStair"))
         {
             onSecondFloor = false;
-        }
-        if (collision.collider.CompareTag("Ground"))
-        {
-            anim.SetBool("onAir", true);
-            canJump = false;
-            jumpCount++;
         }
     }
     
@@ -797,9 +793,9 @@ public class PlayerController :DamageAbleBase,IDamageable
                 GetWeaponState();
                 DownJump();
                 Parring();
+            }
                 Attack();
                 UseSkill();
-            }
             GunModeUI();
             SelectGunMode();
             Dash();
